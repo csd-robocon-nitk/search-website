@@ -7,7 +7,7 @@ export default function TeamCard ({ name, photo, designation, position: i }) {
             {
                 photo
                 ?
-                <img src={`${process.env.PUBLIC_URL}/images/team/${photo}`} />
+                <img src={`/images/team/${photo}`} />
                 :
                 null
             }

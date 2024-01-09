@@ -48,19 +48,19 @@ export default function Sponsor () {
                     <h2>Quick Links</h2>
 
                     <div id = "links">
-                        <a href = {process.env.PUBLIC_URL + "/assets/CSD Robocon NITK Endowment Form.pdf"} target = "_blank">
+                        <a href = "/assets/CSD Robocon NITK Endowment Form.pdf" target = "_blank">
                             <div>
                                 <span class="material-symbols-outlined">
-                                    description
+                                    {/* description */}
                                 </span>
                                 Endowment Form
                             </div>
                         </a>
 
-                        <a href = {process.env.PUBLIC_URL + "/assets/CRN 2023 Season Report.pdf"} target = "_blank">
+                        <a href = "/assets/CRN 2023 Season Report.pdf" target = "_blank">
                             <div>
                                 <span class="material-symbols-outlined">
-                                    newspaper
+                                    {/* newspaper */}
                                 </span>
                                 Season Report 2022-23
                             </div>
@@ -69,7 +69,7 @@ export default function Sponsor () {
                         <a href = "/donate" target = "_blank">
                             <div>
                                 <span class="material-symbols-outlined">
-                                    link
+                                    {/* link */}
                                 </span>
                                 Donate Here
                             </div>

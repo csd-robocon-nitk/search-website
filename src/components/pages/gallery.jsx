@@ -16,7 +16,7 @@ export default function Gallery () {
                             for (let i=0 ; i<n ; i++) x += "0"
                             x += i+1
 
-                            let path = `${process.env.PUBLIC_URL}/images/gallery/${x}.jpg`
+                            let path = `/images/gallery/${x}.jpg`
                             return <img src={path}  key={i} />
                         })
                     }
