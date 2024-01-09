@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.76ee7324.css",
+    "main.js": "/static/js/main.d1c87b7e.js",
+    "static/media/robocon.mp4": "/static/media/robocon.07a2bb7c588abcc41100.mp4",
+    "static/media/LOGO_ROBOCON2024.png": "/static/media/LOGO_ROBOCON2024.99673ace8b83e9375d6b.png",
+    "static/media/009.jpg": "/static/media/009.ce88c1d02e334af05edc.jpg",
+    "static/media/background_alumni.png": "/static/media/background_alumni.b0bf38809e67e4081480.png",
+    "static/media/008.jpg": "/static/media/008.2f56990dd6a32196eea9.jpg",
+    "static/media/013.jpg": "/static/media/013.2091428b71539d9adc57.jpg",
+    "static/media/014.jpg": "/static/media/014.686b98a9ee3fdc1057f4.jpg",
+    "static/media/012.jpg": "/static/media/012.7add610e14788abdb32d.jpg",
+    "static/media/010.jpg": "/static/media/010.6c56792df27b170633da.jpg",
+    "static/media/bosch.png": "/static/media/bosch.a12b9e9d3c1d6c87aeee.png",
+    "static/media/011.jpg": "/static/media/011.bdec6e6429a2c1429f84.jpg",
+    "static/media/006.jpg": "/static/media/006.10e3c3e950370b4c3d98.jpg",
+    "static/media/007.jpg": "/static/media/007.03b632a233cbd383d24e.jpg",
+    "static/media/ansys.png": "/static/media/ansys.9a48eeae893ab586e4f2.png",
+    "static/media/004.jpg": "/static/media/004.cbf91c6e99d7a5230156.jpg",
+    "static/media/002.jpg": "/static/media/002.76f498bc41e3f5b758dd.jpg",
+    "static/media/board.jpg": "/static/media/board.56c666efe86457d628ae.jpg",
+    "static/media/001.jpg": "/static/media/001.65b021f5a8b47e7dadf7.jpg",
+    "static/media/sponsors.png": "/static/media/sponsors.cff1d2bc93003058820a.png",
+    "static/media/003.jpg": "/static/media/003.ef5bc5dfd25d8381bdf2.jpg",
+    "static/media/signitive.png": "/static/media/signitive.204a1a04491dc9b30549.png",
+    "static/media/logo.png": "/static/media/logo.8a3e5f8c1eae2d6d98e7.png",
+    "static/media/capstone.jpg": "/static/media/capstone.e27c2e258436e18d8eb4.jpg",
+    "static/media/005.jpg": "/static/media/005.efc6ffa5eb09cec0e1ab.jpg",
+    "static/media/about_bg.jpg": "/static/media/about_bg.6ffacd42a580dbec8439.jpg",
+    "static/media/svg-3.svg": "/static/media/svg-3.61a92f51b2536943eab5525cecd8688c.svg",
+    "index.html": "/index.html",
+    "main.76ee7324.css.map": "/static/css/main.76ee7324.css.map",
+    "main.d1c87b7e.js.map": "/static/js/main.d1c87b7e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76ee7324.css",
+    "static/js/main.d1c87b7e.js"
+  ]
+}

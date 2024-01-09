@@ -1,0 +1,43 @@
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg);
+    padding: 100px 30px;
+}
+
+#about #left {
+    max-width: min(500px, 50%);
+}
+
+#about #right {
+    max-width: 550px;
+}
+
+#about img {
+    max-width: 100%;
+}
+
+#about #left p {
+    margin: 40px 0px 80px 0px;
+}
+
+
+@media screen and (max-width: 850px) {
+    #about {
+        flex-direction: column-reverse;
+    }
+    
+    #about #right {
+        max-width: 450px;
+    }
+    
+    #about #left {
+        max-width: initial;
+        padding: 50px 20px 0px;
+    }
+    
+    #about #left .button {
+        margin: 0px auto;
+    }
+}

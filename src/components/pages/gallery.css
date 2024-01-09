@@ -1,0 +1,32 @@
+#gallery-page {
+    background-color: var(--bg);
+}
+
+#gallery-page #container {
+    margin: 0px auto;
+    max-width: 1200px;
+    padding: 50px 20px;
+}
+
+#gallery-page #grid {
+    columns: 3;
+    gap: 10px;
+}
+
+#gallery-page #grid img {
+    width: 100%;
+    padding: 5px 0px;
+}
+
+
+@media (max-width: 650px) {
+    #gallery-page #grid {
+        columns: 2;
+    }
+}
+
+@media (max-width: 450px) {
+    #gallery-page #grid {
+        columns: 1;
+    }
+}
