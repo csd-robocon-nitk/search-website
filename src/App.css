@@ -1,9 +1,9 @@
 :root {
     --light-bg: #f9f9f9;
-    --dark-bg: #190133;
+    --dark-bg: #98bf64;
     --light-text: #f7f8fa;
     --dark-text: #100606;
-    --accent: #9f6bff;
+    --accent: #98bf64;
     --accent-light: hsl(261, 70%, 71%);
     --accent-transparent: rgba(159, 107, 255, 0.3);
     --accent-dark: hsl(261, 38%, 30%);
@@ -26,12 +26,6 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
 }
-/* 
-body {
-    overflow: hidden;
-} */
-
-
 
 h1 {
     color: var(--accent);
@@ -115,7 +109,6 @@ p {
     max-width: initial;
 }
 
-
 @media (max-width: 600px) {
     .modal {
         padding: 20px;
@@ -130,9 +123,6 @@ p {
     }
 }
 
-
-
-
 .nav-placeholder {
     height: 80px;
     background-color: var(--dark-bg);
@@ -141,9 +131,6 @@ p {
     left: 0px;
     z-index: 2;
 }
-
-
-
 
 /* Cursor */
 
