@@ -25,7 +25,7 @@ const HeroSection = () => {
         if (!visible) {
             if (tagline == taglineFull.length) return
 
-            let delay = 100
+            let delay = 150
             if (taglineFull[tagline] == " ") delay = 300
 
             setTimeout(() => setTagline(t => t+1), delay)
@@ -67,7 +67,7 @@ const HeroSection = () => {
                 ></video>
             </HeroBg>
             <HeroContent>
-                <HeroH1>CSD ROBOCON NITK</HeroH1>
+                <HeroH1>SEARCH</HeroH1>
                 <HeroP className="cursor">
                     &nbsp;{taglineShown}&nbsp;
                 </HeroP>
@@ -86,18 +86,6 @@ const HeroSection = () => {
                 color: "white",
                 zIndex: 4
             }}>
-                <div style={{position: "relative"}}>
-                    <img src = {logo} style = {{ height: "100px" }} />
-                    <div style = {{
-                        height: "100px",
-                        width: `${100-progress}%`,
-                        position: "absolute",
-                        right: 0,
-                        top: 0,
-                        backgroundColor: "#000000aa"
-                    }}/>
-                </div>
-                <p>{progress}%</p>
             </div>
         </HeroContainer>
     );
