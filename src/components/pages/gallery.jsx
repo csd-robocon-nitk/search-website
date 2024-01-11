@@ -10,7 +10,7 @@ export default function Gallery () {
                 <h2>Gallery</h2>
                 <div id="grid">
                     {
-                        (new Array(10)).fill(0).map((el, i) => {
+                        (new Array(7)).fill(0).map((el, i) => {
                             let n = 2-Math.floor(Math.log(i+1)/Math.log(10))
                             let x = ""
                             for (let i=0 ; i<n ; i++) x += "0"
