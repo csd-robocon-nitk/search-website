@@ -40,7 +40,7 @@ const Navbar = ({ toggle }) => {
                 <Nav scrollNav={scrolNav}>
                     <NavbarContainer>
                         <NavLogo to="/">
-                            <img src={logo} style={{maxHeight: "80px", padding: "10px" }}/>
+                            {/* <img src={logo} style={{maxHeight: "80px", padding: "10px" }}/> */}
                         </NavLogo>
                         <MobileIcon onClick={toggle}>
                             <FaBars />

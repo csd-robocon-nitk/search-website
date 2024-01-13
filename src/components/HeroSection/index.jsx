@@ -6,7 +6,7 @@ import {
     HeroH1,
     HeroP
 } from "./HeroElements";
-import Video from "../../videos/robocon.mp4";
+import Video from "../../videos/search.mp4";
 import logo from "../../images/logo.png"
 
 let randint = (m, n) => parseInt(Math.random() * (n-m+1) + m)
