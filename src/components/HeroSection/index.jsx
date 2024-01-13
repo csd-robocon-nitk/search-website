@@ -18,7 +18,7 @@ const HeroSection = () => {
     let [ tagline, setTagline ] = useState(0)
     let [ display, setDisplay ] = useState(true)
 
-    let taglineFull = "ENGINEER THE IMPOSSIBLE"
+    let taglineFull = "System for Emergency Assistance, Response, & Communication Hub"
     let taglineShown = taglineFull.slice(0, tagline) 
 
     useEffect(() => {
@@ -51,13 +51,24 @@ const HeroSection = () => {
     return (
         <HeroContainer id="home">
             <HeroBg>
+                <div
+                    style={{
+                        position: "absolute",
+                        top: 0,
+                        left: 0,
+                        width: "100%",
+                        height: "100%",
+                        backgroundColor: "rgba(35, 42, 52, 0.7)", // Adjust the color and opacity here
+                        zIndex: 1,
+                    }}
+                ></div>
                 <video
                     style={{
                         width: "100%",
                         height: "100%",
                         objectFit: "cover",
-                        background: "#232a34",
-                        OObjectFit: "cover",
+                        position: "relative",
+                        zIndex: 0,
                     }}
                     autoPlay
                     loop
@@ -67,7 +78,9 @@ const HeroSection = () => {
                 ></video>
             </HeroBg>
             <HeroContent>
-                <HeroH1>SEARCH</HeroH1>
+                <HeroH1 to="/">
+                    <img src={logo} style={{maxHeight: "80px", padding: "10px" }}/>
+                </HeroH1>
                 <HeroP className="cursor">
                     &nbsp;{taglineShown}&nbsp;
                 </HeroP>

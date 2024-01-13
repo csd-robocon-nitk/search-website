@@ -139,6 +139,7 @@ return (
 			<FooterLink href="#/Vision">Vision</FooterLink>
 			<FooterLink href="#">Careers</FooterLink>
             <FooterLink href="#">Testimonials</FooterLink>
+            <FooterLink href="#" > News and Media </FooterLink>
 		</Column>
 		<Column>
 			<Heading>Contact Us</Heading>

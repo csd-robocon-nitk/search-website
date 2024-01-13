@@ -61,6 +61,7 @@ export const HeroH1 = styled.h1`
     color: #fff;
     font-size: 80px;
     text-align: center;
+    zoom : 200%;
     margin: 0;
     padding-bottom: 10px;
 
@@ -78,8 +79,8 @@ export const HeroP = styled.p`
     font-size: 35px;
     font-weight: 500;
     text-align: center;
-    max-width: 600px;
-    font-family: 'Kanit';
+    max-width: 1200px;
+    font-family: "Poppins", sans-serif;
 
     @media screen and (max-width: 768px) {
         font-size: 30px;

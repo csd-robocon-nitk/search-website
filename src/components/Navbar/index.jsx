@@ -48,12 +48,13 @@ const Navbar = ({ toggle }) => {
                         <NavMenu>
                             <NavItem>
                                 <NavLinks
-                                    to="/"
-                                    active={path == "/"}
+                                    to="#"
+                                    active={path == "#"}
                                 >
                                     Home
                                 </NavLinks>
                             </NavItem>
+                            
                             <NavItem>
                                 <NavLinks
                                     to="/about"
@@ -72,6 +73,14 @@ const Navbar = ({ toggle }) => {
                             </NavItem>
                             <NavItem>
                                 <NavLinks
+                                    to="/#about"
+                                    active={path === "/#about"}
+                                >
+                                    Events
+                                </NavLinks>
+                            </NavItem>
+                            <NavItem>
+                                <NavLinks
                                     to="/team"
                                     active={path=="/team"}
                                 >
@@ -83,7 +92,7 @@ const Navbar = ({ toggle }) => {
                                     to="/supporters"
                                     active={path=="/supporters"}
                                 >
-                                    Supporters
+                                    Support Us
                                 </NavLinks>
                             </NavItem>
                             <NavItem>
@@ -91,9 +100,18 @@ const Navbar = ({ toggle }) => {
                                     to="/sponsor"
                                     active={path=="/sponsor"}
                                 >
-                                    Sponsor
+                                    Get Involved
                                 </NavLinks>
                             </NavItem>
+                            <NavItem>
+                                <NavLinks
+                                    to="/sponsor"
+                                    active={path=="/sponsor"}
+                                >
+                                    Contribute
+                                </NavLinks>
+                            </NavItem>
+                            
                         </NavMenu>
 
                     </NavbarContainer>
