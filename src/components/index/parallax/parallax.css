@@ -20,7 +20,7 @@ body {
     max-width: 900px;
     border-radius: 10px;
     padding: 40px;
-    background-color: #00000077;
+    background-color: #07231477;
     color: var(--light-text);
 }
 
@@ -30,6 +30,7 @@ body {
 
 #parallax #content p {
     text-align: justify;
+    line-height:30px;
 }
 
 @media (max-width: 550px) {

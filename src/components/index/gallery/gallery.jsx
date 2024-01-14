@@ -2,19 +2,19 @@ import './gallery.css'
 import React, { useEffect, useRef, useState } from 'react'
 
 
-import img1 from '../../../images/gallery/001.jpg'
-import img2 from '../../../images/gallery/002.jpg'
-import img3 from '../../../images/gallery/003.jpg'
-import img4 from '../../../images/gallery/004.jpg'
-import img5 from '../../../images/gallery/005.jpg'
-import img6 from '../../../images/gallery/006.jpg'
-import img7 from '../../../images/gallery/007.jpg'
+import img1 from '../../../images/gallery/008.jpg'
+import img2 from '../../../images/gallery/009.jpg'
+import img3 from '../../../images/gallery/010.jpeg'
+import img4 from '../../../images/gallery/011.jpeg'
+import img5 from '../../../images/gallery/012.jpg'
+import img6 from '../../../images/gallery/013.jpeg'
+import img7 from '../../../images/gallery/014.jpg'
 import img8 from '../../../images/gallery/008.jpg'
 import img9 from '../../../images/gallery/009.jpg'
-import img10 from '../../../images/gallery/010.jpg'
-import img11 from '../../../images/gallery/011.jpg'
+import img10 from '../../../images/gallery/010.jpeg'
+import img11 from '../../../images/gallery/011.jpeg'
 import img12 from '../../../images/gallery/012.jpg'
-import img13 from '../../../images/gallery/013.jpg'
+import img13 from '../../../images/gallery/013.jpeg'
 import img14 from '../../../images/gallery/014.jpg'
 
 
@@ -82,7 +82,7 @@ export default function GallerySection () {
 
                 <div id = "filmstrip"></div>
                 
-            </div>
+            </div><br /><br />
         </div>
     )
 }

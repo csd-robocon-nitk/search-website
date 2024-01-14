@@ -120,12 +120,12 @@ return (
             <Column>
             <Row style={{marginBottom: "30px"}}>
   <NavLogo to="/">
-    <img src={logo} style={{maxHeight: "90px", padding: "05px" }}/>
+    <img src={logo} style={{maxHeight: "50px", padding: "05px" }}/>
   </NavLogo>
 </Row>
-<Row style={{textAlign:"right"}}> 
+<Row style={{textAlign:"center"}}> 
   <WebsiteRights>
-    Robocon © {new Date().getFullYear()} All Rights Reserved 
+    SEARCH © {new Date().getFullYear()} All Rights Reserved 
   </WebsiteRights>
 </Row>
 
@@ -145,8 +145,8 @@ return (
 			<Heading>Contact Us</Heading>
 			<FooterLink href="https://www.nitk.ac.in/">NITK</FooterLink>
 			<FooterLink href="https://csd.nitk.ac.in/">CSD</FooterLink>
-			<FooterLink href="#">Email-: robocon@nitk.edu.in</FooterLink>
-			<FooterLink href="#">Phone No -: 8890688735</FooterLink>
+			<FooterLink href="#">Email-: email@sample.com</FooterLink>
+			<FooterLink href="#">Phone No -: 9999999999 </FooterLink>
 		</Column>
 		<Column>
 			<Heading>Social Media</Heading>

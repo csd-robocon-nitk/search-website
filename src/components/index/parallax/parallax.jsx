@@ -1,7 +1,7 @@
 import React from 'react'
 import './parallax.css'
 import { ParallaxBanner } from 'react-scroll-parallax'
-import ParallaxBackground from '../../../images/board.jpg'
+import ParallaxBackground from '../../../images/board.jpeg'
 
 export default function ParallaxSection () {
     return (
@@ -9,27 +9,31 @@ export default function ParallaxSection () {
             layers={[
                 {
                     image: ParallaxBackground,
-                    speed: -50
+                    speed: -50,
+                   
                 }
             ]}
         >
             <div id="parallax">
                 <div id="content">
                     <h1>ABOUT</h1>
-                    <h2>CSD Robocon NITK</h2>
+                    <h2>SEARCH</h2>
                     <p>
-                        CSD Robocon NITK is one of the foremost robotics
-                        teams at NITK. Since 2018, we have been participating
-                        in the ABU Robocon (Asia Pacific Broadcasting Union
-                        Robotics Contest), which is touted as the ultimate
-                        robotics challenge for undergraduates.<br/><br/>
-                        We build robots that aim for incredible precision,
-                        reliability and speed or, in other words, industrial
-                        performance. Sadly, the pandemic disrupted the 2022
-                        event for us, but we weren’t deterred by it. We strived to
-                        simulate the robots on ROS, honing our skills for the
-                        next event. This year, we aim to be back with a bang!
-                    </p>
+                    SEARCH represents a pioneering achievement globally. 
+                    It distinguishes itself as the first initiative worldwide to seamlessly 
+                    integrate autonomous marine vessels, aerial vehicles, and UHF/VHF/HF HAM 
+                    radio stations within a single hub contained in portable cabins, complete
+                     with solar panels. These portable units function as dynamic command centers,
+                      ensuring operational flexibility in diverse environments. Notably, SEARCH
+                       comprises dedicated containers for communication, dry dock (for marine
+                        vessel maintenance), recharge zone (for drones and operators), and hardware 
+                        hub (housing tools and inventory). SEARCH extends its applications beyond 
+                        disaster response. Its scope spans monitoring water and air quality, observing
+                         coastal erosion patterns, assessing mangrove health, and supplying crucial
+                          coastal data to CRZ officials upon request.
+
+                    </p><br /><br />
+                    <a className="button" href="https://search.nitk.ac.in">Learn More</a>
                 </div>
             </div>
         </ParallaxBanner>

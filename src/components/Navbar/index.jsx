@@ -15,13 +15,8 @@ import {
     NavLinks,
 } from "./NavbarElements";
 
-
-
 const Navbar = ({ toggle }) => {
     const [scrolNav, setScrollNav] = useState(document.body.scrollTop >= 80);
-    const handleClick = () => {
-        targetDivRef.current.scrollIntoView({ behavior: 'smooth' });
-    };
     const changeNav = () => {
         if (window.scrollY >= 80) {
             setScrollNav(true);
