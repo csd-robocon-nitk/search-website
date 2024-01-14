@@ -1,7 +1,7 @@
 import React from "react";
 import HeroSection from "../HeroSection";
 import GallerySection from '../index/gallery/gallery'
-import AboutSection from "../index/about/about";
+import EventSection from "../index/events/events";
 import ContactSection from "../index/contact/contact";
 import ParallaxSection from '../index/parallax/parallax'
 import SponsorsSection from "../index/sponsors/sponsors"
@@ -15,7 +15,7 @@ const Home = () => {
             {/* <TimelineSection /> */}
             <ParallaxSection />
             <SocialSection />
-            <AboutSection />
+            <EventSection />
             <GallerySection />
             <SponsorsSection />
             <ContactSection />

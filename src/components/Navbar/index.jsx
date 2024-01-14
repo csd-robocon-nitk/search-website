@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import logo from "../../images/logo.png";
 import { useLocation } from "react-router-dom";
+import { HashLink as NavLink } from "react-router-hash-link";  // Import HashLink
 
 import {
     Nav,
@@ -18,6 +19,9 @@ import {
 
 const Navbar = ({ toggle }) => {
     const [scrolNav, setScrollNav] = useState(document.body.scrollTop >= 80);
+    const handleClick = () => {
+        targetDivRef.current.scrollIntoView({ behavior: 'smooth' });
+    };
     const changeNav = () => {
         if (window.scrollY >= 80) {
             setScrollNav(true);
@@ -33,7 +37,11 @@ const Navbar = ({ toggle }) => {
 
     useEffect(() => {
         window.addEventListener("scroll", changeNav);
+        return () => {
+            window.removeEventListener("scroll", changeNav);
+        };
     }, []);
+
     return (
         <>
             <IconContext.Provider value={{ color: "#fff" }}>
@@ -48,13 +56,12 @@ const Navbar = ({ toggle }) => {
                         <NavMenu>
                             <NavItem>
                                 <NavLinks
-                                    to="#"
-                                    active={path == "#"}
+                                    to="/#"
+                                    active={path == "/#"}
                                 >
                                     Home
                                 </NavLinks>
                             </NavItem>
-                            
                             <NavItem>
                                 <NavLinks
                                     to="/about"
@@ -72,10 +79,7 @@ const Navbar = ({ toggle }) => {
                                 </NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks
-                                    to="/#about"
-                                    active={path === "/#about"}
-                                >
+                                <NavLinks to="/#events" as={NavLink} smooth className={path === "/events" ? 'active' : ''}>
                                     Events
                                 </NavLinks>
                             </NavItem>

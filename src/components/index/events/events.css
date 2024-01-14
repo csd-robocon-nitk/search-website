@@ -1,4 +1,4 @@
-#about {
+#events {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,38 +6,38 @@
     padding: 100px 30px;
 }
 
-#about #left {
+#events #left {
     max-width: min(500px, 50%);
 }
 
-#about #right {
+#events #right {
     max-width: 550px;
 }
 
-#about img {
+#events img {
     max-width: 100%;
 }
 
-#about #left p {
+#events #left p {
     margin: 40px 0px 80px 0px;
 }
 
 
 @media screen and (max-width: 850px) {
-    #about {
+    #events {
         flex-direction: column-reverse;
     }
     
-    #about #right {
+    #events #right {
         max-width: 450px;
     }
     
-    #about #left {
+    #events #left {
         max-width: initial;
         padding: 50px 20px 0px;
     }
     
-    #about #left .button {
+    #events #left .button {
         margin: 0px auto;
     }
 }

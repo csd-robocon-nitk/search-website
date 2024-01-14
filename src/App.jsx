@@ -3,7 +3,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import Home from "./components/pages";
-import React, { useState } from 'react'
+import React, { useEffect, useState, useRef } from "react";
 import Gallery from "./components/pages/gallery";
 import Team from './components/pages/team';
 import Aim from './components/pages/Aim';
@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 import About from "./components/pages/about";
 import Vision from "./components/pages/vision";
 import Sponsor from "./components/pages/sponsor";
+// import EventSection from "./components/index/events/events"; // Import the EventSection component
 
 function App() {
     const [isOpen, setIsOpen] = useState(false);
@@ -20,12 +21,19 @@ function App() {
         setIsOpen(!isOpen);
     };
 
+    const targetDivRef = useRef(null);
+
+    const scrollToTarget = () => {
+      targetDivRef.current.scrollIntoView({ behavior: 'smooth' });
+    };
+
     return (
         <Router>
             <Sidebar isOpen={isOpen} toggle={toggle} />
-            <Navbar toggle={toggle} />
+            <Navbar toggle={toggle} scrollToTarget={scrollToTarget}/>
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/" element={<Home targetDivRef={targetDivRef} />} />
+                {/* <Route path="/events" element={<EventSection />} /> */}
                 <Route path="/gallery" element={<Gallery />} />
                 <Route path="/team" element={<Team />} />
                 <Route path="/Aim" element={<Aim />} />
