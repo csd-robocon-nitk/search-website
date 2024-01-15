@@ -6,6 +6,25 @@ import ContactSection from "../index/contact/contact";
 import ParallaxSection from '../index/parallax/parallax'
 import SocialSection from '../index/social/social'
 // import TimelineSection from '../index/timeline/timeline'
+import image1 from '../../images/abu.webp'
+
+const eventsData = [
+    {
+      title: "Event 1",
+      description: "Description for Event 1",
+      instructions: "Detailed instructions for Event 1",
+      learnMoreLink: "https://search.nitk.ac.in",
+      image: image1,
+    },
+    {
+      title: "Event 2",
+      description: "Description for Event 2",
+      instructions: "Detailed instructions for Event 2",
+      learnMoreLink: "https://search.nitk.ac.in",
+      image: image1, 
+    },
+  ];
+
 
 const Home = () => {
     return (
@@ -14,7 +33,7 @@ const Home = () => {
             {/* <TimelineSection /> */}
             <ParallaxSection />
             <SocialSection />
-            <EventSection />
+            <EventSection events={eventsData} />
             <GallerySection />
             <ContactSection />
         </>
