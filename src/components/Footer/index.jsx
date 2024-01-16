@@ -135,9 +135,7 @@ return (
 
 		<Column>
 			<Heading>About Us</Heading>
-			<FooterLink href="#/Aim">Aim</FooterLink>
-			<FooterLink href="#/Vision">Vision</FooterLink>
-			<FooterLink href="#">Careers</FooterLink>
+			<FooterLink href="/sponsor">Get Involved</FooterLink>
             <FooterLink href="#">Testimonials</FooterLink>
             <FooterLink href="#" > News and Media </FooterLink>
 		</Column>
@@ -145,14 +143,14 @@ return (
 			<Heading>Contact Us</Heading>
 			<FooterLink href="https://www.nitk.ac.in/">NITK</FooterLink>
 			<FooterLink href="https://csd.nitk.ac.in/">CSD</FooterLink>
-			<FooterLink href="#">Email-: email@sample.com</FooterLink>
-			<FooterLink href="#">Phone No -: 9999999999 </FooterLink>
+			<FooterLink href="#">Email-: search@nitk.edu.in</FooterLink>
+			<FooterLink href="#">Phone No -: 9972797225 </FooterLink>
 		</Column>
 		<Column>
 			<Heading>Social Media</Heading>
             <SocialIcons style={{marginBottom: "20px"   }}>
                                 <SocialIconLink
-                                    href="https://www.instagram.com/csdroboconnitk/"
+                                    href="https://www.instagram.com/csd_nitk/"
                                     target="_blank"
                                     aria-label="Instagram"
                                 >
@@ -162,7 +160,7 @@ return (
                             </SocialIcons>
                             <SocialIcons style={{marginBottom: "20px"}}>
                                 <SocialIconLink
-                                    href="https://www.youtube.com/@csdroboconnitk"
+                                    href="https://www.youtube.com/@centreforsystemdesignnitks8420"
                                     target="_blank"
                                     aria-label="Youtube"
                                 >
@@ -172,7 +170,7 @@ return (
                             </SocialIcons>
                             <SocialIcons style={{marginBottom: "20px"}}>
                                 <SocialIconLink
-                                    href="https://www.linkedin.com/company/csd-robocon-nitk"
+                                    href="https://www.linkedin.com/in/nitk-surathkal-585b3b18a/"
                                     target="_blank"
                                     aria-label="LinkedIn"
                                 >

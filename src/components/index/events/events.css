@@ -48,7 +48,7 @@
 }
 
 img {
-    max-width: 70%;
+    max-width: 50%;
     display: block;
     margin-bottom: 10px; /* Adjust spacing between image and title */
 }

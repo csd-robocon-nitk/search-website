@@ -91,7 +91,7 @@ const Navbar = ({ toggle }) => {
                                     to="/supporters"
                                     active={path=="/supporters"}
                                 >
-                                    Support Us
+                                    Supporters
                                 </NavLinks>
                             </NavItem>
                             <NavItem>
@@ -104,8 +104,9 @@ const Navbar = ({ toggle }) => {
                             </NavItem>
                             <NavItem>
                                 <NavLinks
-                                    to="/sponsor"
-                                    active={path=="/sponsor"}
+                                    to="https://alumni.nitk.ac.in/dept_appeals_list_view?id=60"
+                                    active={path=="https://alumni.nitk.ac.in/dept_appeals_list_view?id=60"}
+                                    target="__blank"
                                 >
                                     Contribute
                                 </NavLinks>

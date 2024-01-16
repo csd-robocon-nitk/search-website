@@ -1,149 +1,146 @@
 export default [
     {
-        "name": "NV Raghuramu",
+        "name": "A S Karanth",
         "batch": "1980",
         "department": "Electrical & Electronics Engineering",
-        "photo": "Raghuramu.jpg"
+        "photo": "empty photo.jpg"
     },
     {
-        "name": "Kumar Govindrajpuram Vidyanathan",
+        "name": "Ram Bhandare",
         "batch": "1991",
         "department": "Mechanical Engineering",
-        "photo": "Kumar Govindrajpuram.jpg"
+        "photo": "empty photo.jpg"
     },
     {
-        "name": "Sreekumar KT",
+        "name": "Anil Kakode",
         "batch": "1991",
         "department": "Electronics & Communication Engineering",
-        "photo": "Sreekumar.jpg",
-        "amount": "10,000"
+        "photo": "empty photo.jpg",
     },
     {
-        "name": "Harinath Renukamurthy",
+        "name": "Benedict Machado",
         "batch": "1991",
         "department": "ELectronics & Communication Engineering",
         "photo": "empty photo.jpg"
     },
     {
-        "name": "Prashanth R Samaga",
+        "name": "Bengaluru Chapter",
         "batch": "1991",
-        "department": "Electrical & Electronics Engineering",
-        "photo": "Prashanth.jpg"
+        "department": "NITK Surathkal Alumni Association",
+        "photo": "empty photo.jpg"
     },
     {
-        "name": "Prasanna Koteshwara",
+        "name": "Govindaraya Pai",
         "batch": "1991",
         "department": "Metallurgical Engineering",
         "photo": "empty photo.jpg"
     },
     {
-        "name": "Prasanna Udupi",
-        "batch": "1991",
-        "department": "Electrical & Electronics Engineering",
-        "photo": "Prasanna Udupi.jpg",
-        "amount": "75,000"
-    },
-    {
-        "name": "Sadanand Hegde",
-        "batch": "1982",
-        "department": "ELectronics & Communication Engineering",
-        "photo": "Sadanand Hegde.jpg"
-    },
-    {
-        "name": "Umesh Sangurmath",
+        "name": "Kiran Padiyar",
         "batch": "1991",
         "department": "Electrical & Electronics Engineering",
         "photo": "empty photo.jpg",
-        "amount": "1,00,000"
     },
     {
-        "name": "Keshav Venkatraman Nayak",
+        "name": "Krishnamurthy R",
+        "batch": "1982",
+        "department": "ELectronics & Communication Engineering",
+        "photo": "empty photo.jpg"
+    },
+    {
+        "name": "ACE Manufacturing Systems Limited",
+        "batch": "1991",
+        "department": "Electrical & Electronics Engineering",
+        "photo": "empty photo.jpg",
+    },
+    {
+        "name": "Shyam Sirur",
         "batch": "1973",
-        "department": "Mechanical Engineering",
-        "photo": "KV Nayak.jpg",
+        "department": "COTMAC Electronics Pvt. Ltd.",
+        "photo": "empty photo.jpg",
     },
     {
-        "name": "Ajit Kadwadkar",
+        "name": "Ghatge Patil Industries Limited",
         "batch": "1979",
-        "department": "Mechanical Engineering",
-        "photo": "Ajit Kadwadkar.jpg",
+        "department": "",
+        "photo": "empty photo.jpg",
     },
     {
-        "name": "Ramamurthy Krishna",
+        "name": "NITK Surathkal Alumni Association",
         "batch": "1979",
         "department": "ELectronics & Communication Engineering",
-        "photo": "Ramamurthy.jpg"
+        "photo": "empty photo.jpg"
     },
     {
-        "name": "Kandanadan",
+        "name": "Raghuraj Rao",
         "batch": "2001",
         "department": "Civil Engineering",
         "photo": "empty photo.jpg",
     },
     {
-        "name": "Praveen Rao",
+        "name": "Raja Bhat and Kumuda Foundations",
         "batch": "1991",
         "department": "Mechanical Engineering",
         "photo": "empty photo.jpg",
     },
     {
-        "name": "S C Balawat",
+        "name": "Rangan Ramaswamy",
         "batch": "1972",
         "department": "Metallurgy Engineering",
         "photo": "empty photo.jpg",
     },
     {
-        "name": "Anand Kumar",
+        "name": "Sathish Shenoy",
         "batch": "2022",
         "department": "-",
         "photo": "empty photo.jpg",
     },
     {
-        "name": "Ashok Rao",
+        "name": "Shreyas Shetty",
         "batch": "1986",
         "department": "Mechanical Engineering",
         "photo": "empty photo.jpg",
     },
     {
-        "name": "Gopal Bhupal",
+        "name": "Srikanth Bhat",
         "batch": "1977",
         "department": "Metallurgy Engineering",
         "photo": "empty photo.jpg",
     },
     {
-        "name": "Sreenivas Rao",
+        "name": "Suresh Joshi",
         "batch": "1965",
         "department": "Mechanical Engineering",
         "photo": "empty photo.jpg",
     },
     {
-        "name": "Prashanth Kamath",
+        "name": "Vasantha Raja Sural",
         "batch": "1995",
         "department": "Mechanical Engineering",
         "photo": "empty photo.jpg",
     },
     {
-        "name": "Shailesh Gadad",
+        "name": "Dilip Kumar",
         "batch": "1993",
         "department": "Chemical Engineering",
         "photo": "empty photo.jpg",
     },
-    {
-        "name": "Prashanth Samaga",
-        "batch": "1991",
-        "department": "-",
-        "photo": "empty photo.jpg",
-    },
-    {
-        "name": "Pankaj Jain",
-        "batch": "1991",
-        "department": "Mechanical Engineering",
-        "photo": "empty photo.jpg",
-    },
-    {
-        "name": "Suresh Sreeniasaiah",
-        "batch": "",
-        "department": "-",
-        "photo": "empty photo.jpg",
-    }
+    // {
+    //     "name": "Prashanth Samaga",
+    //     "batch": "1991",
+    //     "department": "-",
+    //     "photo": "empty photo.jpg",
+    // },
+    // {
+    //     "name": "Pankaj Jain",
+    //     "batch": "1991",
+    //     "department": "Mechanical Engineering",
+    //     "photo": "empty photo.jpg",
+    // },
+    // {
+    //     "name": "Suresh Sreeniasaiah",
+    //     "batch": "",
+    //     "department": "-",
+    //     "photo": "empty photo.jpg",
+    // }
 ]

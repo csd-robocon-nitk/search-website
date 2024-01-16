@@ -79,7 +79,7 @@ const HeroSection = () => {
             </HeroBg>
             <HeroContent>
                 <HeroH1 to="/">
-                    <img src={logo} style={{maxHeight: "80px", padding: "10px" }}/>
+                    <img src={logo} style={{maxHeight: "80px", padding: "5px" }}/>
                 </HeroH1>
                 <HeroP className="cursor">
                     &nbsp;{taglineShown}&nbsp;

@@ -7,7 +7,7 @@ export default function Alumni () {
         <div id="alumni-page" className="dark">
             <div className="nav-placeholder" />
             <div id="container">
-                <h2>Our Alumni Supporters</h2>
+                <h2>Supporters</h2>
 
                 <div id="cards">
                     {

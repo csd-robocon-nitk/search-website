@@ -6,36 +6,28 @@ import ContactSection from "../index/contact/contact";
 import ParallaxSection from '../index/parallax/parallax'
 import SocialSection from '../index/social/social'
 // import TimelineSection from '../index/timeline/timeline'
-import image1 from '../../images/abu.webp'
+import image2 from '../../images/event.jpg'
+import image1 from '../../images/event2.jpg'
+import image3 from '../../images/event3.jpeg'
 
 const eventsData = [
     {
-      title: "Event 1",
-      description: "Description for Event 1",
-      instructions: "Detailed instructions for Event 1",
+      title: "Dedication",
+      description: "Dedication of SEARCH to Society",
       learnMoreLink: "https://search.nitk.ac.in",
       image: image1,
     },
     {
-      title: "Event 2",
-      description: "Description for Event 2",
-      instructions: "Detailed instructions for Event 2",
+      title: "DiRTS 2023",
+      description: "A 3-Day Disaster Resilience Workshop",
       learnMoreLink: "https://search.nitk.ac.in",
-      image: image1, 
+      image: image2, 
     },
     {
-      title: "Event 3",
-      description: "Description for Event 3",
-      instructions: "Detailed instructions for Event 3",
+      title: "Coastal Police 2023",
+      description: "A Hands-on Session",
       learnMoreLink: "https://search.nitk.ac.in",
-      image: image1, 
-    },
-    {
-      title: "Event 4",
-      description: "Description for Event 4",
-      instructions: "Detailed instructions for Event 4",
-      learnMoreLink: "https://search.nitk.ac.in",
-      image: image1, 
+      image: image3, 
     },
   ];
 
