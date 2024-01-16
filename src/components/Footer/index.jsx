@@ -110,7 +110,7 @@ return (
                 textAlign: "center",
                 fontSize: "20px",
                 margin: "0px 0px 40px 0px" }}>
-        CSD ROBOCON NITK: We Build Robots !
+        SEARCH : System for Emergency, Assistance, Response and Communication Hub
     </h1>
 	<Container>
         

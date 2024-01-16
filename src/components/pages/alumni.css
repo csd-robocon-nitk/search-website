@@ -1,7 +1,7 @@
 #alumni-page {
     min-height: 100vh;
     background-color: var(--bg);
-    background-image: url("../../images/background_alumni.png");
+    background-image: url("../../images/board.png");
     background-attachment: fixed;
     background-size: cover;
     color: var(--color);
