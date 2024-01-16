@@ -30,13 +30,13 @@ const eventsData = [
       learnMoreLink: "https://search.nitk.ac.in",
       image: image1, 
     },
-    // {
-    //   title: "Event 4",
-    //   description: "Description for Event 4",
-    //   instructions: "Detailed instructions for Event 4",
-    //   learnMoreLink: "https://search.nitk.ac.in",
-    //   image: image1, 
-    // },
+    {
+      title: "Event 4",
+      description: "Description for Event 4",
+      instructions: "Detailed instructions for Event 4",
+      learnMoreLink: "https://search.nitk.ac.in",
+      image: image1, 
+    },
   ];
 
 

@@ -20,17 +20,19 @@ body {
     max-width: 900px;
     border-radius: 10px;
     padding: 40px;
-    background-color: #07231477;
+    background-color: #0b361a77;
     color: var(--light-text);
 }
 
 #parallax #content h1 {
     color: var(--accent-light);
+    font-size: 30px;
 }
 
 #parallax #content p {
     text-align: justify;
-    line-height:30px;
+    line-height:28px;
+    color: rgb(223, 223, 223);
 }
 
 @media (max-width: 550px) {

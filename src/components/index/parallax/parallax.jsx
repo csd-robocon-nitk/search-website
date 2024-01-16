@@ -14,6 +14,17 @@ export default function ParallaxSection () {
                 }
             ]}
         >
+            <div
+                    style={{
+                        position: "absolute",
+                        top: 0,
+                        left: 0,
+                        width: "100%",
+                        height: "100%",
+                        backgroundColor: "rgba(35, 42, 52, 0.1)", // Adjust the color and opacity here
+                        zIndex: 1,
+                    }}
+                ></div>
             <div id="parallax">
                 <div id="content">
                     <h1>ABOUT</h1>
