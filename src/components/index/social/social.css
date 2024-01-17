@@ -9,6 +9,14 @@
     line-height: 1.5;
     color: #fffdfd;
   }
+
+  #social h1{
+    font-size: 35px;
+  }
+
+  #social h2{
+    font-size: 30px;
+  }
   
   #social #videos {
     display: flex;
