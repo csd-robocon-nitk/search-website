@@ -5,8 +5,8 @@ import EventSection from "../index/events/events";
 import ContactSection from "../index/contact/contact";
 import ParallaxSection from '../index/parallax/parallax'
 import SocialSection from '../index/social/social'
-// import TimelineSection from '../index/timeline/timeline'
-import image2 from '../../images/event.jpg'
+// //import TimelineSection from '../index/timeline/timeline'
+import image2 from '../../images/event.JPG'
 import image1 from '../../images/event2.jpg'
 import image3 from '../../images/event3.jpeg'
 
