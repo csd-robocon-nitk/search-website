@@ -9,7 +9,7 @@ export const HeroContainer = styled.div`
     padding: 0 30px;
     height: 100vh;
     position: relative;
-    z-index: 1;
+    z-index: -1;
 
     overflow-x: hidden;
 
@@ -26,7 +26,7 @@ export const HeroContainer = styled.div`
         //         rgba(0, 0, 0, 0.6) 100%
         //     ),
         //     linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
-        z-index: -2;
+        // z-index: -2;
     }
 `;
 
