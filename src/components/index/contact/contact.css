@@ -13,12 +13,21 @@
     min-width: 400px;
 }
 
+#contact #left h1{
+    font-size: 45px;
+}
+
+#contact #left h2{
+    font-size: 28px;
+}
+
 #contact #right {
     max-width: 400px;
 }
 
 #contact img {
     max-width: 100%;
+    zoom: 200%;
 }
 
 #contact form {
@@ -76,5 +85,17 @@
     
     #contact #left .button {
         margin: 0px auto;
+    }
+
+    #contact #left h1{
+        font-size: 45px;
+    }
+    
+    #contact #left h2{
+        font-size: 28px;
+    }
+    
+    #contact img {
+        max-width: 100%;
     }
 }
