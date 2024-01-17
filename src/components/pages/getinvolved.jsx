@@ -1,9 +1,9 @@
 import React from "react"
-import "./sponsor.css"
+import "./getinvolved.css"
 import sponsors from "../../images/sponsors.png"
 import { Link } from "react-scroll"
 
-export default function Sponsor () {
+export default function GetInvolved () {
     return (
         <>
             <div id="sponsor-page" className="dark">

@@ -138,7 +138,7 @@ return (
 
 		<Column>
 			<Heading>About Us</Heading>
-			<FooterLink href="/sponsor">Get Involved</FooterLink>
+			<FooterLink href="/#/getinvolved">Get Involved</FooterLink>
             <FooterLink href="#">Testimonials</FooterLink>
             <FooterLink href="#" > News and Media </FooterLink>
 		</Column>

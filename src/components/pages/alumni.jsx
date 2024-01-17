@@ -13,7 +13,7 @@ export default function Alumni () {
                     {
                         alumni_data.map((alumnus, i) => 
                             <div className="card animate__animated animate__zoomIn" style={{"animation-delay": `${i*100}ms`}} key={i}>
-                                <img src={`/images/alumni/${alumnus.photo}`} />
+                                <img src={`/images/alumni/${alumnus.photo}`} style={{width:"75%" , maxheight:"200%"}} />
                                 <div class="content">
                                     <h4>{alumnus.name}</h4>
                                     <h5>{alumnus.batch}</h5>

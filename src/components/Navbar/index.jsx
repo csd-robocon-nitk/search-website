@@ -96,8 +96,8 @@ const Navbar = ({ toggle }) => {
                             </NavItem>
                             <NavItem>
                                 <NavLinks
-                                    to="/sponsor"
-                                    active={path=="/sponsor"}
+                                    to="/getinvolved"
+                                    active={path=="/getinvolved"}
                                 >
                                     Get Involved
                                 </NavLinks>
