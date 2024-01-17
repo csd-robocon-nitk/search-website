@@ -119,11 +119,14 @@ return (
 
             <Column>
             <Row style={{marginBottom: "30px"}}>
-  <NavLogo to="/">
-    <img src={logo} style={{maxHeight: "50px", padding: "05px" }}/>
+  
+    <div style={{marginRight:"auto"}}>
+    <NavLogo to="/">
+    <img src={logo} style={{maxHeight: "60px", padding: "04px" }}/>
   </NavLogo>
+    </div>
 </Row>
-<Row style={{textAlign:"center"}}> 
+<Row style={{textAlign:"center", marginLeft:"45px"}}> 
   <WebsiteRights>
     SEARCH © {new Date().getFullYear()} All Rights Reserved 
   </WebsiteRights>

@@ -144,8 +144,8 @@ display: grid;
 grid-template-columns: repeat(auto-fill,
 						minmax(150px, 1fr));
 grid-gap: 100px;
-
 @media (max-width: 1000px) {
+
 	grid-template-columns: repeat(auto-fill,
 						minmax(200px, 1fr));
 }
@@ -202,4 +202,8 @@ export const NavLogo = styled(Link)`
     align-items: center;
     margin-left: 24px;
     font-weight: bold;
+    @media (max-width: 1000px) {
+    
+        margin-left:100px;
+    }
     `;
