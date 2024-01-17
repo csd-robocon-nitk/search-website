@@ -8,6 +8,7 @@ import {
 } from "./HeroElements";
 import Video from "../../videos/search.mp4";
 import logo from "../../images/logo.png"
+import WebFont from 'webfontloader';
 
 let randint = (m, n) => parseInt(Math.random() * (n-m+1) + m)
 
@@ -25,14 +26,14 @@ const HeroSection = () => {
         if (!visible) {
             if (tagline == taglineFull.length) return
 
-            let delay = 150
-            if (taglineFull[tagline] == " ") delay = 300
+            let delay = 175
+            // if (taglineFull[tagline] == "") delay = 1
 
             setTimeout(() => setTagline(t => t+1), delay)
         }
 
         if (progress == 100) {
-            setTimeout(() => setVisible(false), 1000)
+            setTimeout(() => setVisible(false), 500)
             return
         }
 
@@ -44,9 +45,17 @@ const HeroSection = () => {
 
     useEffect(() => {
         if (!visible) {
-            setDisplay(false)
+            setDisplay(true)
         }
     }, [ visible ])
+
+    useEffect(() => {
+        WebFont.load({
+          google: {
+            families: ['Zuume', 'Chilanka']
+          }
+        });
+    }, []);
 
     return (
         <HeroContainer id="home">
@@ -78,10 +87,10 @@ const HeroSection = () => {
                 ></video>
             </HeroBg>
             <HeroContent>
-                <HeroH1 to="/">
-                    <img src={logo} style={{maxHeight: "80px", padding: "5px" }}/>
+                <HeroH1 to="#">
+                    <img src={logo} style={{maxHeight: "90px", padding: "8px", margin: "auto" }}/>
                 </HeroH1>
-                <HeroP className="cursor">
+                <HeroP className="cursor" style={{fontFamily: 'Zuume'}}>
                     &nbsp;{taglineShown}&nbsp;
                 </HeroP>
             </HeroContent>
@@ -93,11 +102,9 @@ const HeroSection = () => {
                 width: "100vw",
                 height: "100vh",
                 backgroundColor: "black",
-                justifyContent: "center",
-                alignItems: "center",
                 flexDirection: "column",
                 color: "white",
-                zIndex: 4
+                zIndex: -1,
             }}>
             </div>
         </HeroContainer>

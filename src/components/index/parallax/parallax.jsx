@@ -1,7 +1,7 @@
 import React from 'react'
 import './parallax.css'
 import { ParallaxBanner } from 'react-scroll-parallax'
-import ParallaxBackground from '../../../images/board.jpeg'
+import ParallaxBackground from '../../../images/boardhome.jpeg'
 
 export default function ParallaxSection () {
     return (
@@ -21,7 +21,7 @@ export default function ParallaxSection () {
                         left: 0,
                         width: "100%",
                         height: "100%",
-                        backgroundColor: "rgba(35, 42, 52, 0.1)", // Adjust the color and opacity here
+                        backgroundColor: "rgba(35, 42, 52, 0.25)", // Adjust the color and opacity here
                         zIndex: 1,
                     }}
                 ></div>

@@ -67,20 +67,22 @@ export const HeroH1 = styled.h1`
 
     @media screen and (max-width: 768px) {
         font-size: 42px;
+        align-items: center;
     }
 
     @media screen and (max-width: 400px) {
         font-size: 35px;
+        align-items: center;
     }
 `;
 
 export const HeroP = styled.p`
     color: #fff;
-    font-size: 35px;
-    font-weight: 500;
+    font-size: 40px;
+    font-weight: 100;
     text-align: center;
-    max-width: 1200px;
-    font-family: "Poppins", sans-serif;
+    max-width: 1500px;
+    // font-family: "Poppins", sans-serif;
 
     @media screen and (max-width: 768px) {
         font-size: 30px;
