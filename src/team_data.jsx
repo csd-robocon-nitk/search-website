@@ -1,249 +1,169 @@
 export default {
     "Core Team": [
         {
-            "name": "Siddh Narhari",
-            "designation": "Captain",
-            "photo": "Siddh.jpg"
+            "name": "Dr. Pruthviraj Umesh",
+            "designation": "SEARCH Project Head",
+            "photo": "Pruthviraj U.png"
         },
         {
-            "name": "Aryan Rawate",
-            "designation": "Vice-Captain",
-            "photo": "Aryan.jpg"
+            "name": "Dr. K. V. Gangadharan",
+            "designation": "VU2TAO, Coordinator of Centre for System Design",
+            "photo": "KVG.png"
         },
-        {
-            "name": "Sriramu A R",
-            "designation": "Technical Head",
-            "photo": "Shriramu.jpg"
-        },
-        {
-            "name": "Dev Goti",
-            "designation": "Treasurer",
-            "photo": "Dev Goti.jpg"
-        }
     ],
 
-    "ECE & P Team": [
+    "SEARCH Team": [
         {
-            "name": "Sai Aswin Madhavan",
-            "designation": "ECE & P Head ",
-            "photo": "Sai Aswin.jpg"
+            "name": "Mr. Manish ES",
+            "designation": "JRF, VU3FCT",
+            "photo": "Manish.png"
         },
         {
-            "name": "Joel Jojo Painuthara",
-            "designation": "ECE & P Head",
-            "photo": "Joel.jpg"
+            "name": "Mr. Dixith Karkera",
+            "designation": "JRF , VU3CJX",
+            "photo": "Dixith.jpg"
         },
         {
-            "name": "Prakhar Goel",
-            "designation": "Team Member",
-            "photo": "Prakhar.jpg"
+            "name": "Ms. Ashika Pai",
+            "designation": "JRF",
+            "photo": "Ashika.png"
         },
         {
-            "name": "Dev Goti",
-            "designation": "Team Member",
-            "photo": "Dev Goti.jpg"
+            "name": "Mr. Ruthvik S Kunder",
+            "designation": "JRF",
+            "photo": "Ruthvik.png"
         },
         {
-            "name": "Omkar Arvind Jungade",
-            "designation": "Team Member",
-            "photo": "Omkar.jpg"
+            "name": "Mr. Vishwas A S",
+            "designation": "JRF",
+            "photo": "Vishwas.png"
         },
         {
-            "name": "N Nagabhushanam",
-            "designation": "Team Member",
-            "photo": "Bhushan.jpg"
+            "name": "Mr. Poudhan Kumar",
+            "designation": "JRF",
+            "photo": "Poudhan.png"
         },
         {
-            "name": "Ashna Sanjay Gaude",
-            "designation": "Team Member",
-            "photo": "Ashna.jpg"
+            "name": "Mr. Maclin Fernandes",
+            "designation": "Field Assistant",
+            "photo": "Maclin.png"
         },
         {
-            "name": "Adithya Kasal",
-            "designation": "Team Member",
-            "photo": "Adithya Kasal.jpg"
+            "name": "Mr. Prakash K",
+            "designation": "Field Assistant",
+            "photo": "Prakash.png"
         },
         {
-            "name": "Niranjan M K",
-            "designation": "Team Member",
-            "photo": "Niranjan.jpg"
+            "name": "Mr. Vikas V Devadiga",
+            "designation": "Field Assistant",
+            "photo": "empty photo.jpg"
         },
         {
-            "name": "Nishchay Pallav",
-            "designation": "Team Member",
-            "photo": "Nishchay.jpg"
+            "name": "Mr. Niranjan",
+            "designation": "Field Assistant",
+            "photo": "Niranjan.png"
         },
-        {
-            "name": "Apoorva Agrawal",
-            "designation": "Team Member",
-            "photo": "Apoorva.jpg"
-        },
-        {
-            "name": "Krishnapranav",
-            "designation": "Team Member",
-            "photo": "Krishnapranav.jpg"
-        },
-        {
-            "name": "Priyanka Deokar",
-            "designation": "Team Member",
-            "photo": "Priyanka.jpg"
-        },
-        {
-            "name": "J Hariharan",
-            "designation": "Team Member",
-            "photo": "Hariharan.jpg"
-        }
     ],
 
-    "Mechanical Team": [
+    "Additional Members": [
         
         {
-            "name": "Hafiz Yunus Kalathil",
-            "designation": "Mech Head",
-            "photo": "Hafiz.jpg"
+            "name": "Mr. Rajath C Kotekar",
+            "designation": "VU3LHV",
+            "photo": "Rajath.png"
         },
         {
-            "name": "Harish B",
-            "designation": "Mech Head",
-            "photo": "Harish.jpg"
+            "name": "Mr. Rakshith Kotian",
+            "designation": "VU3LGQ",
+            "photo": "Rakshith.png"
         },
         {
-            "name": "Matcha Nitin",
-            "designation": "Team Member",
-            "photo": "Nitin.jpg"
+            "name": "Mr. Steven Sequera",
+            "designation": "VU3LGA",
+            "photo": "Steven.png"
         },
         {
-            "name": "Pooja M",
-            "designation": "Team Member",
-            "photo": "Pooja.jpeg"
+            "name": "Mr. Latheesh Shetty",
+            "designation": "VU3FCC",
+            "photo": "Latheesh.png"
         },
         {
-            "name": "Tahsin Khan",
-            "designation": "Team Member",
-            "photo": "Tahsin.jpg"
+            "name": "Mr. Abdhul Shameer",
+            "designation": "VU3LIJ",
+            "photo": "Abdul.png"
         },
         {
-            "name": "Raghavendra Pandurang Jadhav",
-            "designation": "Team Member",
-            "photo": "Raghavendra.jpg"
+            "name": "Mr. Nithin Manoharan",
+            "designation": "",
+            "photo": "empty photo.jpg"
         },       
         {
-            "name": "Anushka Das",
-            "designation": "Team Member",
-            "photo": "Anushka.jpg"
+            "name": "Dr. Praveen Suvarna",
+            "designation": "",
+            "photo": "empty photo.jpg"
+        },
+    ],
+
+    "Project Managers": [
+        {
+            "name": "Ms. Shradha Shetty V",
+            "designation": "VU3CMY, Project Manager",
+            "photo": "Shradha.png"
         },
         {
-            "name": "Jash Lapsiwala",
-            "designation": "Team Member",
-            "photo": "Jash.jpg"
+            "name": "Mr. Abhijith P A",
+            "designation": "Project Manager",
+            "photo": "Abhijit.png"
         },
-        {
-            "name": "Manas Priye",
-            "designation": "Team Member",
-            "photo": "Manas.jpg"
-        },
-        {
-            "name": "Chirag Ingle",
-            "designation": "Team Member",
-            "photo": "Chirag.jpg"
-        },
-        
-        {
-            "name": "Pranav Sudheer",
-            "designation": "Team Member",
-            "photo": "Pranav.jpg"
-        },
-        {
-            "name": "Avadhoot Anant Nadgouda",
-            "designation": "Team Member",
-            "photo": "Anant.jpg"
-        },
-        {
-            "name": "Akash Gowda H U",
-            "designation": "Team Member",
-            "photo": "Akash.jpg"
-        },
-        {
-            "name": "Srinidhi Srinivas",
-            "designation": "Team Member",
-            "photo": "Srinidhi.jpg"
-        },
-        {
-            "name": "Naisha Kishore",
-            "designation": "Team Member",
-            "photo": "Naisha.jpg"
-        },
-        {
-            "name": "Afeef Bin Ahamed Ali",
-            "designation": "Team Member",
-            "photo": "Afeef.jpg"
-        }
     ],
 
     "Support Team": [
         {
-            "name": "Raghavendra Pandurang Jadhav",
-            "designation": "Media & Web Head",
+            "name": "Mr. Hemanth Nitesh Kumar",
+            "designation": "Technical Assistant",
+            "photo": "empty photo.jpg"
+        },
+        {
+            "name": "Ms. Meghana",
+            "designation": "Technical Assistant",
+            "photo": "Meghana.jpeg"
+        },
+        {
+            "name": "Ms. Nishali",
+            "designation": "",
+            "photo": "Nishali.png"
+        },
+    ],
+
+    "Web Design Team": [
+        {
+            "name": "Mr. Raghavendra Jadhav",
+            "designation": "Web Designer",
             "photo": "Raghavendra.jpg"
         },
         {
-            "name": "Shriramu A R",
-            "designation": "Team Member",
-            "photo": "Shriramu.jpg"
-        },
-        {
-            "name": "Aryan Rawate",
-            "designation": "Team Member",
-            "photo": "Aryan.jpg"
-        },
-        {
-            "name": "Joel Jojo Painuthara",
-            "designation": "Team Member",
-            "photo": "Joel.jpg"
-        },
-        {
-            "name": "Pooja M",
-            "designation": "Team Member",
-            "photo": "Pooja.jpeg"
-        },
-        {
-            "name": "Shivam Tewari",
-            "designation": "Team Member",
-            "photo": "Shivam.jpg"
-        },
-        {
-            "name": "J Hariharan",
-            "designation": "Team Member",
-            "photo": "Hariharan.jpg"
-        },
-        {
-            "name": "Apoorva Agrawal",
-            "designation": "Team Member",
+            "name": "Mr. Apoorva Agrawal",
+            "designation": "Web Designer",
             "photo": "Apoorva.jpg"
         },
         {
-            "name": "Chirag Ingle",
-            "designation": "Team Member",
-            "photo": "Chirag.jpg"
-        },
-        {
-            "name": "Ashna Sanjay Gaude",
-            "designation": "Team Member",
-            "photo": "Ashna.jpg"
+            "name": "Mr. Hariharan J",
+            "designation": "Web Designer",
+            "photo": "Hariharan.jpg"
         }
     ],
 
-    "Faculty Advisors": [
+    "Media Team": [
         {
-            "name": "Dr Pruthviraj U",
-            "designation": "Associated Faculty, CSD",
-            "photo": "Pruthviraj.jpg"
+            "name": "Mr. Nikhil",
+            "designation": "Member",
+            "photo": "empty photo.jpg"
         },
         {
-            "name": "Dr Gangadharan K V",
-            "designation": "Associated Faculty, CSD",
-            "photo": "Gangadharan.jpg"
-        }
+            "name": "Mr. Rajeev Bhat",
+            "designation": "Member",
+            "photo": "empty photo.jpg"
+        },
     ]
    
 }

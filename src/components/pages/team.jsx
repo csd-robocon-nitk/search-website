@@ -18,47 +18,61 @@ export default function Team () {
                         <TeamCard
                             {...team_data['Core Team'][0]}
                         />
-                    </div>
-                    <div className='flex'>
                         <TeamCard
                             {...team_data['Core Team'][1]}
                         />
-                        <TeamCard
-                            {...team_data['Core Team'][2]}
-                        />
-                        <TeamCard
-                            {...team_data['Core Team'][3]}
-                        />
                     </div>
                 </div>
 
                 <div className="section">
-                    <h3>Electronics and Programming Team</h3>
+                    <h3>SEARCH Team</h3>
                     <TeamContent
-                        team={team_data['ECE & P Team']}
+                        team={team_data['SEARCH Team']}
                     />
                 </div>
 
                 <div className="section">
-                    <h3>Mechanical Team</h3>
+                    <h3>Additional Members</h3>
                     <TeamContent
-                        team={team_data['Mechanical Team']}
+                        team={team_data['Additional Members']}
                     />
                 </div>
 
+                <div className="section">
+                    <h3>Project Managers</h3>
+                    <TeamContent
+                        team={team_data['Project Managers']}
+                    />
+                </div>
                 <div className="section">
                     <h3>Support Team</h3>
-                    <TeamContent
-                        team={team_data['Support Team']}
-                    />
-                </div>
-
-                <h2>Faculty Advisors</h2>
-                
-                <div className="section">
                     <div className="flex">
                         {
-                            team_data['Faculty Advisors'].map(d => 
+                            team_data['Support Team'].map(d => 
+                                <TeamCard 
+                                    {...d}
+                                />    
+                            )    
+                        }
+                    </div>
+                </div>
+                <div className="section">
+                    <h3>Web Design Team</h3>
+                    <div className="flex">
+                        {
+                            team_data['Web Design Team'].map(d => 
+                                <TeamCard 
+                                    {...d}
+                                />    
+                            )    
+                        }
+                    </div>
+                </div>
+                <div className="section">
+                    <h3>Media Team</h3>
+                    <div className="flex">
+                        {
+                            team_data['Media Team'].map(d => 
                                 <TeamCard 
                                     {...d}
                                 />    
