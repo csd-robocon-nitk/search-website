@@ -11,6 +11,8 @@ export const HeroContainer = styled.div`
     position: relative;
     z-index: 1;
 
+    overflow-x: hidden;
+
     :before {
         content: "";
         position: absolute;
@@ -24,7 +26,7 @@ export const HeroContainer = styled.div`
         //         rgba(0, 0, 0, 0.6) 100%
         //     ),
         //     linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
-        z-index: 2;
+        z-index: -2;
     }
 `;
 

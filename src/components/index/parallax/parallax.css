@@ -1,18 +1,17 @@
 body {
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 #parallax {
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
-
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-
-    padding: 0px 20px;
+    padding: 0px 10px;
 }
 
 
@@ -30,7 +29,7 @@ body {
 }
 
 #parallax #content p {
-    text-align: justify;
+    /* text-align: justify; */
     line-height:27px;
     color: white;
 }
@@ -38,5 +37,11 @@ body {
 @media (max-width: 550px) {
     #parallax #content p {
         font-size: 17px;
+        line-height:21px;
+    }
+    #parallax #content {
+        max-width: 1000px;
+        border-radius: 10px;
+        padding: 10px;
     }
 }
