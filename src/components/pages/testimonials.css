@@ -1,0 +1,139 @@
+.testimonials {
+    padding: 100px 50px;
+    background: linear-gradient(#304D30 200px, #EEF0E5 200px);
+}
+
+.testimonials .content {
+    width: 90%;
+    height: 100%;
+    max-width: 1100px;
+    padding: 40px;
+    margin: auto;
+    background-color: #ffffff;
+    color: var(--dark-text);
+    box-shadow: 0px 0px 7px #cccccc;
+    border-radius: 10px;
+}
+
+.testimonials h1 {
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+
+
+.testimonials .section {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    margin: 0px 50px 70px 50px;
+    background-color: #f3f4f3;
+}
+
+.testimonials .section:nth-of-type(odd) {
+    border-left: 7px solid var(--bg-dark-blue);
+    padding: 20px 30px 20px 40px;
+
+}
+
+.testimonials .section:nth-of-type(even) {
+    border-right: 7px solid var(--bg-dark-blue);
+    padding: 20px 40px 20px 30px;
+    flex-direction: row-reverse;
+}
+
+.testimonials .section img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 75%;
+    max-height: 125%;
+}
+
+.testimonials .section p {
+    font-size: 18px;
+    line-height: 150%;
+    /* text-align: justify; */
+}
+
+.testimonials .section h2 {
+    margin: 20px 0px;
+    display: flex;
+    align-items: start;
+    gap: 7px;
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    font-size: 16px;
+}
+
+.testimonials .section h2 p {
+    font-size: inherit;
+    text-align: left;
+}
+
+.testimonials .section:nth-of-type(odd) h2 {
+    justify-content: right;
+}
+
+.testimonials .section:nth-of-type(even) h2 {
+    justify-content: left;
+}
+
+
+
+@media (max-width: 1100px) {
+    .testimonials{
+        padding: 1000px 20px;
+    }
+
+    .testimonials .content {
+        width: 100%;
+    }
+
+    .testimonials .section:nth-of-type(odd), .testimonials .section:nth-of-type(even) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 850px) {
+    .testimonials {
+        padding: 50px 40px;
+    }
+
+    .testimonials .section {
+        margin: 0px 0px 70px 0px;
+    }
+}
+
+@media (max-width: 700px) {
+    .testimonials .section p {
+        font-size: 16px;
+        line-height: 120%;
+    }
+
+    .testimonials .section h2 {
+        font-size: 14px;
+    }
+
+    .testimonials .section img {
+        width: 120px;
+        width: 60%;
+        max-height: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+    .testimonials {
+        padding: 40px 0px;
+    }
+
+    .testimonials .content {
+        padding: 20px; 
+        border-radius: 0;
+    }
+
+    .testimonials .section:nth-of-type(odd), .testimonials .section:nth-of-type(even) {
+        padding: 15px;
+    }
+}

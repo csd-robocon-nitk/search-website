@@ -7,6 +7,7 @@ import {
     SidebarMenu,
     SidebarLink
 } from "./SidebarElements";
+import { HashLink as NavLink } from "react-router-hash-link";  // Import HashLink
 
 const Sidebar = ({ isOpen, toggle }) => {
     return (
@@ -16,7 +17,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to="/" onClick={toggle}>
+                    <SidebarLink to="/#" onClick={toggle}>
                         Home
                     </SidebarLink>
                     <SidebarLink to="/about" onClick={toggle}>
@@ -25,14 +26,20 @@ const Sidebar = ({ isOpen, toggle }) => {
                     <SidebarLink to="/gallery" onClick={toggle}>
                         Gallery
                     </SidebarLink>
+                    <SidebarLink to="/#events" as={NavLink} smooth onClick={toggle}>
+                        Events
+                    </SidebarLink>
                     <SidebarLink to="/team" onClick={toggle}>
                         Team
                     </SidebarLink>
                     <SidebarLink to="/supporters" onClick={toggle}>
                         Supporters
-                    </SidebarLink>
-                    <SidebarLink to="/sponsor" onClick={toggle}>
-                        Sponsor
+                    </SidebarLink><br />
+                    <SidebarLink to="/getinvolved" onClick={toggle}>
+                        Get Involved
+                    </SidebarLink><br /><br />
+                    <SidebarLink to="https://alumni.nitk.ac.in/dept_appeals_list_view?id=60" target="__blank" onClick={toggle}>
+                        Contribute
                     </SidebarLink>
                 </SidebarMenu>
             </SidebarWrapper>

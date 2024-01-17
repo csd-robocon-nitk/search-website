@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 import About from "./components/pages/about";
 import Vision from "./components/pages/vision";
 import GetInvolved from "./components/pages/getinvolved";
+import Testimonial from "./components/pages/testimonials";
 // import EventSection from "./components/index/events/events"; // Import the EventSection component
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
                 <Route path="/getinvolved" element={<GetInvolved />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/vision" element={<Vision />} />
+                <Route path="/testimonials" element={<Testimonial />} />
             </Routes>
             <Footer />
         </Router>

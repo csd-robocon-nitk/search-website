@@ -139,15 +139,15 @@ return (
 		<Column>
 			<Heading>About Us</Heading>
 			<FooterLink href="/#/getinvolved">Get Involved</FooterLink>
-            <FooterLink href="#">Testimonials</FooterLink>
+            <FooterLink href="/#/testimonials">Testimonials</FooterLink>
             <FooterLink href="#" > News and Media </FooterLink>
 		</Column>
 		<Column>
 			<Heading>Contact Us</Heading>
 			<FooterLink href="https://www.nitk.ac.in/">NITK</FooterLink>
 			<FooterLink href="https://csd.nitk.ac.in/">CSD</FooterLink>
-			<FooterLink href="#">Email-: search@nitk.edu.in</FooterLink>
-			<FooterLink href="#">Phone No -: 9972797225 </FooterLink>
+			<FooterLink >Email-: search@nitk.edu.in</FooterLink>
+			<FooterLink >Phone No -: 9972797225 </FooterLink>
 		</Column>
 		<Column>
 			<Heading>Social Media</Heading>
