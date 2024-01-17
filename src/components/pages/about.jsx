@@ -19,35 +19,43 @@ export default function About () {
 
             <div id="container">
                 <div class="section">
-                    <h1>OUR STORY</h1>
+                    <h1>Know Us</h1>
                     <p>
-                        CSD Robocon NITK is one of the foremost robotics
-                        teams at NITK. Since 2018, we have been participating
-                        in the ABU Robocon (Asia Pacific Broadcasting Union
-                        Robotics Contest), which is touted as the ultimate
-                        robotics challenge for undergraduates.<br/><br/>
-                        We build robots that aim for incredible precision,
-                        reliability and speed or, in other words, industrial
-                        performance. Sadly, the pandemic disrupted the 2022
-                        event for us, but we weren't deterred by it. We strived to
-                        simulate the robots on ROS, honing our skills for the
-                        next event. This year, we aim to be back with a bang!
+                    SEARCH represents a pioneering achievement globally. It distinguishes itself as the first initiative worldwide to seamlessly integrate autonomous marine vessels, aerial vehicles, and UHF/VHF/HF HAM radio stations within a single hub contained in portable cabins, complete with solar panels. <br /><br />
+                    These portable units function as dynamic command centers, ensuring operational flexibility in diverse environments. Notably, SEARCH comprises dedicated containers for communication, dry dock (for marine vessel maintenance), recharge zone (for drones and operators), and hardware hub (housing tools and inventory). <br /><br />
+                    SEARCH extends its applications beyond disaster response. Its scope spans monitoring water and air quality, observing coastal erosion patterns, assessing mangrove health, and supplying crucial coastal data to CRZ officials upon request. <br /><br />
+                    Furthermore, SEARCH assumes the role of an educational hub catering to a diverse audience, including industry professionals, district administrators, academics, students, and HAM/Amateur radio enthusiasts. <br /><br />
+                    This expansion of its purpose positions SEARCH not only as a disaster management tool but as a comprehensive resource contributing to environmental monitoring, educational initiatives, and collaborative efforts across various sectors.
                     </p>
                 </div>
                 <div class="section">
-                    <h1>OUR VISION</h1>
+                    <h1>Autonomous Aerial Vehicles</h1>
                     <p>
-                        To create a culture that embodies a deep drive of learning and encourages creativity and excellence<br /><br />
-                        To consistently build innovative and intelligent machines capable of performing all their tasks in an efficient fashion.<br /><br />
-                        To create machines with a strong underlying influence of ethics and develop practices of  environmentally sustainable construction and creations.
+                        Advanced drones in SEARCH with day and night vision capabilities, including thermal, multispectral, RGB, and LiDAR, enable real-time aerial monitoring, air quality assessment, and data collection, enhancing situational awareness during emergencies.
                     </p>
                 </div>
                 <div class="section">
-                    <h1>OUR AIM</h1>
+                    <h1>Unmanned Marine Vessels</h1>
                     <p>
-                        Founded in 2017, CSD Robocon NITK is the college's official robotics team. 
-                        As a group of 30 interdisciplinary undergraduates, 
-                        we aim to win the Grand Prix at the prestigious ABU Robocon.
+                        Autonomous vessel designed for diverse conditions, deliver swift responses on water surfaces, play a crucial role in observing coastal erosion patterns, water quality and evaluating the health of mangroves.
+                    </p>
+                </div>
+                <div class="section">
+                    <h1>Control & Command Center</h1>
+                    <p>
+                        The Center, acting as the operational nerve, ensures rapid deployment and comfortable operations, facilitating seamless coordination during emergencies. The integration of the E Mobility enhances the centres capacity for immediate assistance, improving overall response effectiveness.
+                    </p>
+                </div>
+                <div class="section">
+                    <h1>Communication Infrastructure</h1>
+                    <p>
+                        Enabling seamless coordination with components like HEX Beam, Omni-directional Antenna, Spider beam Antenna, and Repeater.
+                    </p>
+                </div>
+                <div class="section">
+                    <h1>Portable Container Cabin</h1>
+                    <p>
+                        Portable Container Cabins with Solar Panels for Operations Flexibility. Enables mobile and flexible command post setup. Facilitates on-site coordination and quick decision-making.
                     </p>
                 </div>
             </div>

@@ -164,7 +164,7 @@ text-decoration: none;
 `;
 
 export const Heading = styled.p`
-font-size: 22px;
+font-size: 23px;
 color: #fff;
 margin-bottom: 30px;
 font-weight: bold;

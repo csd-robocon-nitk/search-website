@@ -1,6 +1,6 @@
 #about-page {
     background-color: var(--bg);
-    background-image: url('../../images/about_bg.jpg');
+    background-image: url('../../images/board.jpeg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -44,5 +44,4 @@
 
 #about-page #container .section p {
     margin: 30px 0px;
-    text-align: justify;
 }
