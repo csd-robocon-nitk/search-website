@@ -2,19 +2,6 @@ import React, { useRef, useState, useEffect } from "react";
 import "./events.css";
 
 export default function EventSection({ events }) {
-  const eventsContainerRef = useRef(null);
-  const [scrollLeft, setScrollLeft] = useState(0);
-
-  const handleScroll = (scrollWidth) => {
-    setScrollLeft(scrollWidth);
-  };
-
-  useEffect(() => {
-    const container = eventsContainerRef.current;
-    if (container) {
-      container.scrollLeft = scrollLeft;
-    }
-  }, [scrollLeft]);
 
   return (
     <div id="events-container" className="dark">
@@ -22,8 +9,6 @@ export default function EventSection({ events }) {
       <div
         id="events"
         className="events-scroll"
-        ref={eventsContainerRef}
-        onScroll={(e) => handleScroll(e.target.scrollLeft)}
       >
         {ev(events)}
         {ev(events)}
