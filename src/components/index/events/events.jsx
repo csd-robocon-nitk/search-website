@@ -25,17 +25,28 @@ export default function EventSection({ events }) {
         ref={eventsContainerRef}
         onScroll={(e) => handleScroll(e.target.scrollLeft)}
       >
-        {events.map((event, index) => (
-          <div key={index} className="event-container">
-            <h2>{event.title}</h2>
-            <img src={event.image} alt={`Event ${index + 1}`} />
-            <p>{event.description}</p>
-            <a className="button" href={event.learnMoreLink}>
-              Learn More
-            </a>
-          </div>
-        ))}
+        {ev(events)}
+        {ev(events)}
+        {/* {ev(events)} */}
       </div>
     </div>
   );
 }
+
+
+
+let ev = events => 
+<div className="event-wrapper">
+  {
+    events.map((event, index) => (
+      <div key={index} className="event-container">
+        <h2>{event.title}</h2>
+        <img src={event.image} alt={`Event ${index + 1}`} />
+        <p>{event.description}</p>
+        <a className="button" href={event.learnMoreLink}>
+          Learn More
+        </a>
+      </div>
+    ))
+  }
+</div>

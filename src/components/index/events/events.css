@@ -25,15 +25,13 @@
     white-space: nowrap; /* Prevent wrapping of children */
 }
 
-.events-scroll {
+.event-wrapper {
     display: flex;
     flex-wrap: nowrap;
-    animation: scrollAnimation 20s linear infinite; 
-    /* overflow-x: hidden; */
-
-    animation-name: infiniteScroll;
+    animation: infiniteScroll 20s linear infinite; 
 }
-.events-scroll:hover {
+
+.events-scroll:hover .event-wrapper {
     animation-play-state: paused;
     cursor: pointer;
 }
@@ -61,7 +59,7 @@ h1, h2, p {
 
 @keyframes infiniteScroll {
   from {transform: translateX(0)}
-  to {transform: translateX(-50%)}
+  to {transform: translateX(-100%)}
 }
 
 @media screen and (max-width: 850px) {
