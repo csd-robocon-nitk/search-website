@@ -27,7 +27,7 @@ export default function EventSection({ events }) {
       >
         {ev(events)}
         {ev(events)}
-        {/* {ev(events)} */}
+        {ev(events)}
       </div>
     </div>
   );
@@ -40,8 +40,8 @@ let ev = events =>
   {
     events.map((event, index) => (
       <div key={index} className="event-container">
-        <h2>{event.title}</h2>
         <img src={event.image} alt={`Event ${index + 1}`} />
+        <h2>{event.title}</h2>
         <p>{event.description}</p>
         <a className="button" href={event.learnMoreLink}>
           Learn More
