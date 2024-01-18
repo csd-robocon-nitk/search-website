@@ -87,7 +87,7 @@ const HeroSection = () => {
             </HeroBg>
             <HeroContent>
                 <HeroH1 to="#">
-                    <img src={logo} style={{maxHeight: "90px", padding: "8px", margin: "auto" }}/>
+                    <img src={logo} style={{maxHeight: "90px", padding: "12px", margin: "auto" }}/>
                 </HeroH1>
                 <HeroP className={tagline <= taglineSplit ? "cursor" : ""} style={{fontFamily: 'Zuume'}}>
                     &nbsp;{taglineFull.slice(0, Math.min(tagline, taglineSplit))}
