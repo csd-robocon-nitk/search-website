@@ -1,74 +1,105 @@
-#sponsor-page {
-    background-color: var(--bg);
-}
-
-#sponsor-page #container {
-    max-width: 900px;
-    margin: 0px auto;
-    padding: 50px 20px;
-}
-
-#sponsor-page img {
-    width: 90%;
-}
-
-#sponsor-page #account {
-    margin: 0px auto;
-    color: var(--color);
-    font-size: 20px;
-}
-
-#sponsor-page #account div:last-child {
-    font-weight: 700;
-    color: var(--accent-light);
-}
-
-
-
-#sponsor-page #links {
+#contact {
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
-    align-items: center;
-    gap: 15px;
-
+    gap: 50px;
+    padding: 100px 30px;
+    background-color: var(--accent-light);
 }
 
-#sponsor-page #links a {
-    font-size: 20px;
-    color: var(--color);
-    text-decoration: none;
+#contact #left {
+    max-width: 700px;
+    width: 100%;
+    min-width: 400px;
 }
 
-#sponsor-page #links a div {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    padding: 10px 20px;
-
-    border: 3px solid var(--accent);
-    border-radius: 100px;
-    transition: 0.5s;
-}
-
-#sponsor-page #links a div:hover {
-    background-color: var(--light-bg);
+#contact #left h1{
+    font-size: 35px;
     color: var(--accent-dark);
 }
 
-#sponsor-page #links a div span {
-    font-size: 30px;
+#contact #left h2{
+    font-size: 25px;
+    max-width: 470px;
+    font-weight: 600;
 }
 
-@media (max-width: 500px) {
-    #sponsor-page #links {
-        flex-direction: column;
-        align-items: stretch;
-    }
+#contact #right {
+    max-width: 400px;
 }
 
-#sponsor-page #links-caption {
+#contact img {
+    max-width: 100%;
+    zoom: 200%;
+}
+
+#contact form {
+    background-color: var(--bg);
+    padding: 40px;
+    margin: 50px 0px;
+    border-radius: 10px;
+}
+
+#contact label {
     color: var(--color);
-    font-size: 22px;
-    padding-top: 50px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    border-radius: 5px;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding: 10px;
+    outline: none;
+}
+
+#contact textarea {
+    height: 130px;
+}
+
+#contact button {
+    width: 100%;
+    border-radius: 10px;
+    max-width: initial;
+}
+
+@media screen and (max-width: 850px) {
+    #contact {
+        flex-direction: column-reverse;
+    }
+    
+    #contact #right {
+        max-width: 300px;
+    }
+    
+    #contact #left {
+        max-width: initial;
+        min-width: initial;
+        padding: 50px 0px 0px 0px;
+    }
+
+    #contact form {
+        padding: 20px;
+    }
+
+    #contact input {
+        margin-bottom: 20px;
+    }
+    
+    #contact #left .button {
+        margin: 0px auto;
+    }
+
+    #contact #left h1{
+        font-size: 45px;
+    }
+    
+    #contact #left h2{
+        font-size: 28px;
+    }
+    
+    #contact img {
+        max-width: 100%;
+    }
 }
