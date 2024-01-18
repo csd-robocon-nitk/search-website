@@ -22,18 +22,19 @@ export const NavbarContainer = styled.div`
     z-index: 1;
     width: 100%;
     padding: 0 24px;
-    max-width: 1100px;
+    max-width: 1600px;
 `;
 
 export const NavLogo = styled(Link)`
     color: #fff;
     justify-self: flex-start;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     display: flex;
     align-items: center;
-    margin-left: 24px;
-    font-weight: bold;
+    margin-right: auto;
+    margin-left:10px;
+    font-weight: normal;
     text-decoration: none;
 `;
 
@@ -57,7 +58,7 @@ export const NavMenu = styled.ul`
     align-items: center;
     list-style: none;
     text-align: center;
-    margin-right: -22px;
+    margin-right: 50px;
 
     @media screen and (max-width: 768px) {
         display: none;
