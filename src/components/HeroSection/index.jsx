@@ -50,7 +50,7 @@ const HeroSection = () => {
 
     useEffect(() => {
         WebFont.load({
-          google: {
+          adobe: {
             families: ['Zuume', 'Chilanka']
           }
         });
