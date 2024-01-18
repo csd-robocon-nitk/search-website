@@ -51,7 +51,7 @@ const Navbar = ({ toggle }) => {
             <IconContext.Provider value={{ color: "#fff" }}>
                 <Nav scrollNav={scrolNav}>
                     <NavbarContainer>
-                        <NavLogo to="/" style={{fontFamily: 'Zuume'}}> 
+                        <NavLogo to="/" style={{fontFamily: 'zuumeextrabold'}}> 
                             SEARCH
                         </NavLogo>
                         <MobileIcon onClick={toggle}>

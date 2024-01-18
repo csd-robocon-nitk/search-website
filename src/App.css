@@ -4,9 +4,9 @@
     --light-text: #f7f8fa;
     --dark-text: #100606;
     --accent: #98bf64;
-    --accent-light: hsl(261, 70%, 71%);
-    --accent-transparent: rgba(159, 107, 255, 0.3);
-    --accent-dark: hsl(261, 38%, 30%);
+    --accent-light:hsl(86, 60%, 82%);
+    --accent-transparent: #98bf645e;
+    --accent-dark: hsl(86, 80%, 30%);
     --dark-bg-darker: hsl(269, 96%, 8%);
 }
 
@@ -126,6 +126,7 @@ p {
 
 .nav-placeholder {
     height: 80px;
+    width: 100%;
     background-color: var(--dark-bg);
     position: sticky;
     top: 0px;

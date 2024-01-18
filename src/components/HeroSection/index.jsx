@@ -8,7 +8,6 @@ import {
 } from "./HeroElements";
 import Video from "../../videos/search.mp4";
 import logo from "../../images/logo.png"
-import WebFont from 'webfontloader';
 
 let randint = (m, n) => parseInt(Math.random() * (n-m+1) + m)
 let taglineSplit = 32
@@ -25,7 +24,8 @@ const HeroSection = () => {
         if (!visible) {
             if (tagline == taglineFull.length) return
 
-            let delay = 175
+            let delay = 130
+            if (tagline == taglineSplit) delay = 500
             // if (taglineFull[tagline] == "") delay = 1
 
             setTimeout(() => setTagline(t => t+1), delay)
@@ -47,14 +47,6 @@ const HeroSection = () => {
             setDisplay(true)
         }
     }, [ visible ])
-
-    useEffect(() => {
-        WebFont.load({
-          adobe: {
-            families: ['Zuume', 'Chilanka']
-          }
-        });
-    }, []);
 
     return (
         <HeroContainer id="home">
@@ -89,10 +81,10 @@ const HeroSection = () => {
                 <HeroH1 to="#">
                     <img src={logo} style={{maxHeight: "90px", padding: "12px", margin: "auto" }}/>
                 </HeroH1>
-                <HeroP className={tagline <= taglineSplit ? "cursor" : ""} style={{fontFamily: 'Zuume'}}>
+                <HeroP className={tagline <= taglineSplit ? "cursor" : ""}>
                     &nbsp;{taglineFull.slice(0, Math.min(tagline, taglineSplit))}
                 </HeroP>
-                <HeroP className={tagline <= taglineSplit ? "" : "cursor"} style={{fontFamily: 'Zuume'}}>
+                <HeroP className={tagline <= taglineSplit ? "" : "cursor"}>
                     {tagline <= taglineSplit ? <span>&nbsp;</span> : taglineFull.slice(taglineSplit, tagline)}
                 </HeroP>
             </HeroContent>
