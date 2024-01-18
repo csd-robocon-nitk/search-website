@@ -141,7 +141,7 @@ p {
     animation-iteration-count: 15;
 
     border-right: 2px solid #ffffff00;
-    padding: 0px 5px;
+    padding: 0px 7px;
 }
 
 @keyframes cursor {

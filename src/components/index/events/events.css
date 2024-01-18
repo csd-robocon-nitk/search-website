@@ -53,10 +53,6 @@ img {
     height: 200px;
 }
 
-h1, h2, p {
-    margin: 10px;
-}
-
 @keyframes infiniteScroll {
   from {transform: translateX(0)}
   to {transform: translateX(-100%)}
