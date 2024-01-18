@@ -6,10 +6,7 @@
     padding: 100px 30px;
     flex-wrap: wrap;
     padding-left: 100px;
-    overflow: hidden; /* Hide horizontal overflow */
-
     width: 100%;
-  overflow-x: hidden;
 }
 
 #events-container h1{
@@ -19,42 +16,54 @@
 
 #events {
     display: flex;
-    flex-wrap: nowrap; /* Prevent wrapping to the next line */
-    width: max-content; /* Allow the container to be as wide as its contents */
-    overflow-x: hidden; /* Hide the scrollbar */
-    white-space: nowrap; /* Prevent wrapping of children */
+    gap: 50px;
+    padding: 20px;
+    overflow-x: hidden;
 }
 
 .event-wrapper {
     display: flex;
-    flex-wrap: nowrap;
+    align-items: stretch;
+    gap: 50px;
+    cursor: pointer;
     animation: infiniteScroll 20s linear infinite; 
 }
 
 .events-scroll:hover .event-wrapper {
     animation-play-state: paused;
-    cursor: pointer;
 }
 
 .event-container {
-    flex: 0 0 auto; /* Allow natural width for each event container */
-    margin-right: 5px; /* Adjust spacing between events */
-    scroll-snap-align: start; /* Align each event container to the start */
-    box-sizing: border-box;
-    white-space: nowrap;
-    overflow: hidden;
+    width: 300px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    position: relative;
 }
 
-img {
-    /* max-width: 50%; */
+.event-container:hover {
+    box-shadow: 0px 0px 5px 1px #ffffffaa;
+}
+
+.event-container h2 {
+    font-size: 23px;
+    margin: 20px 0px 10px 0px;
+}
+
+.event-container p {
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+.event-container .button {
+    position: absolute;
+    bottom: 20px;
+}
+
+.event-container img {
     display: block;
-    margin-bottom: 10px; /* Adjust spacing between image and title */
-    width: 200px;
-    height: 200px;
-}
-
-h1, h2, p {
-    margin: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 @keyframes infiniteScroll {

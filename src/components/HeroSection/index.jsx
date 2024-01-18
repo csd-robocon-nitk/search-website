@@ -11,16 +11,15 @@ import logo from "../../images/logo.png"
 import WebFont from 'webfontloader';
 
 let randint = (m, n) => parseInt(Math.random() * (n-m+1) + m)
-
+let taglineSplit = 32
 
 const HeroSection = () => {
     let [ visible, setVisible ] = useState(true)
-    let [ progress, setProgress ] = useState(0)
+    let [ progress, setProgress ] = useState(100)
     let [ tagline, setTagline ] = useState(0)
     let [ display, setDisplay ] = useState(true)
 
-    let taglineFull = "System for Emergency Assistance, Response, & Communication Hub"
-    let taglineShown = taglineFull.slice(0, tagline) 
+    let taglineFull = "System for Emergency Assistance,Response & Communication Hub"
 
     useEffect(() => {
         if (!visible) {
@@ -33,7 +32,7 @@ const HeroSection = () => {
         }
 
         if (progress == 100) {
-            setTimeout(() => setVisible(false), 500)
+            setTimeout(() => setVisible(false), 1000)
             return
         }
 
@@ -90,8 +89,11 @@ const HeroSection = () => {
                 <HeroH1 to="#">
                     <img src={logo} style={{maxHeight: "90px", padding: "8px", margin: "auto" }}/>
                 </HeroH1>
-                <HeroP className="cursor" style={{fontFamily: 'Zuume'}}>
-                    &nbsp;{taglineShown}&nbsp;
+                <HeroP className={tagline <= taglineSplit ? "cursor" : ""} style={{fontFamily: 'Zuume'}}>
+                    &nbsp;{taglineFull.slice(0, Math.min(tagline, taglineSplit))}
+                </HeroP>
+                <HeroP className={tagline <= taglineSplit ? "" : "cursor"} style={{fontFamily: 'Zuume'}}>
+                    {tagline <= taglineSplit ? <span>&nbsp;</span> : taglineFull.slice(taglineSplit, tagline)}
                 </HeroP>
             </HeroContent>
             <div style = {{
