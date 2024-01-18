@@ -80,11 +80,12 @@ export const HeroH1 = styled.h1`
 
 export const HeroP = styled.p`
     color: #fff;
-    font-size: 35px;
+    font-size: 45px;
     font-weight: 100;
     text-align: center;
     max-width: 1500px;
-    font-family: "Zuume", sans-serif;
+    font-family: "zuumebold", sans-serif;
+    line-height: 90%;
     margin: 3px 0px;
 
     @media screen and (max-width: 768px) {
