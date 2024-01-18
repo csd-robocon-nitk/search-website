@@ -4,6 +4,7 @@ import { IconContext } from "react-icons/lib";
 import logo from "../../images/logo.png";
 import { useLocation } from "react-router-dom";
 import { HashLink as NavLink } from "react-router-hash-link";  // Import HashLink
+import WebFont from 'webfontloader';
 
 import {
     Nav,
@@ -31,6 +32,14 @@ const Navbar = ({ toggle }) => {
     useEffect(() => setPath(location.pathname), [ location ])
 
     useEffect(() => {
+        WebFont.load({
+          google: {
+            families: ['Zuume', 'Chilanka']
+          }
+        });
+    }, []);
+
+    useEffect(() => {
         window.addEventListener("scroll", changeNav);
         return () => {
             window.removeEventListener("scroll", changeNav);
@@ -42,8 +51,8 @@ const Navbar = ({ toggle }) => {
             <IconContext.Provider value={{ color: "#fff" }}>
                 <Nav scrollNav={scrolNav}>
                     <NavbarContainer>
-                        <NavLogo to="/">
-                            {/* <img src={logo} style={{maxHeight: "80px", padding: "10px" }}/> */}
+                        <NavLogo to="/" style={{fontFamily: 'Zuume'}}> 
+                            SEARCH
                         </NavLogo>
                         <MobileIcon onClick={toggle}>
                             <FaBars />
