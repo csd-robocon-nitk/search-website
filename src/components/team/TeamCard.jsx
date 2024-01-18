@@ -7,7 +7,14 @@ export default function TeamCard ({ name, photo, designation, position: i }) {
             {
                 photo
                 ?
-                <img src={`/images/team/${photo}`} style={{width:"75%" , maxheight:"200%"}} />
+                <img 
+                    src={`/images/team/${photo}`} 
+                    style={{
+                        alignItems: "center", 
+                        width:"160px", 
+                        height:"160px"
+                    }}
+                />
                 :
                 null
             }

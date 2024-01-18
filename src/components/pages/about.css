@@ -37,7 +37,7 @@
 }
 
 #about-page #container .section h1 {
-    color: var(--accent-light);
+    color: rgb(39, 174, 39);
     font-size: 32px;
     margin: 20px 0px;
 }
