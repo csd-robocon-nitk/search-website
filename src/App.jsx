@@ -14,6 +14,17 @@ import Vision from "./components/pages/vision";
 import GetInvolved from "./components/pages/getinvolved";
 import Testimonial from "./components/pages/testimonials";
 // import EventSection from "./components/index/events/events"; // Import the EventSection component
+import { useLocation } from 'react-router-dom';
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null; // This component doesn't render anything
+}
 
 function App() {
     const [isOpen, setIsOpen] = useState(false);
@@ -30,19 +41,20 @@ function App() {
 
     return (
         <Router>
+            <ScrollToTop />
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} scrollToTarget={scrollToTarget}/>
             <Routes>
                 <Route path="/" element={<Home targetDivRef={targetDivRef} />} />
                 {/* <Route path="/events" element={<EventSection />} /> */}
-                <Route path="/gallery" element={<Gallery />} />
-                <Route path="/team" element={<Team />} />
-                <Route path="/Aim" element={<Aim />} />
-                <Route path="/supporters" element={<Alumni />} />
-                <Route path="/getinvolved" element={<GetInvolved />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/vision" element={<Vision />} />
-                <Route path="/testimonials" element={<Testimonial />} />
+                <Route  path="/gallery" element={<Gallery />} />
+                <Route  path="/team" element={<Team />} />
+                <Route  path="/Aim" element={<Aim />} />
+                <Route  path="/supporters" element={<Alumni />} />
+                <Route  path="/getinvolved" element={<GetInvolved />} />
+                <Route  path="/about" element={<About />} />
+                <Route  path="/vision" element={<Vision />} />
+                <Route  path="/testimonials" element={<Testimonial />} />
             </Routes>
             <Footer />
         </Router>
