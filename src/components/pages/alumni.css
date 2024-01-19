@@ -93,5 +93,6 @@
 
     #alumni-page #cards .card img {
         margin: 0px;
+        max-width: 35%;
     }
 }
