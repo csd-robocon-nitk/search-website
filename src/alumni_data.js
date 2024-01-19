@@ -12,6 +12,12 @@ export default [
         "photo": "empty photo.jpg"
     },
     {
+        "name": "A S Karanth",
+        "batch": "1970",
+        "department": "Electrical Engineering",
+        "photo": "empty photo.jpg"
+    },
+    {
         "name": "Anil Kakode",
         "batch": "1970",
         "department": "Chemical Engineering",
