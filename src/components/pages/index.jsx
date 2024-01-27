@@ -14,7 +14,7 @@ const eventsData = [
     {
       title: "Dedication",
       description: "Dedication of SEARCH to Society",
-      learnMoreLink: "https://search.nitk.ac.in",
+      learnMoreLink: "/events/dedication",
       image: image1,
     },
     {

@@ -1,0 +1,61 @@
+.eventpage-container {
+    background-color: var(--accent-light);
+}
+
+.eventpage {
+    max-width: 800px;
+    padding: 40px 20px;
+    margin: auto;
+}
+
+.eventpage h1 {
+    color: var(--accent-dark);
+}
+
+.eventpage h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.eventpage .details {
+    display: grid;
+    row-gap: 10px;
+    grid-template-columns: 100px auto;
+}
+
+.eventpage .details h3 {
+    font-size: 15px;
+    max-width: 300px;
+    color: var(--accent-dark);
+}
+
+.eventpage .details h3.underline {
+    text-decoration: underline;
+}
+
+.eventpage .images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.eventpage img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5px;
+    border: 2px solid var(--accent);
+    display: block;
+    margin: 20px auto;
+}
+
+.eventpage .images img {
+    width: 45%;
+}
+
+
+.eventpage p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 150%;
+    margin: 20px 0px;
+}

@@ -1,5 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import "./events.css";
+import { Link } from "react-router-dom";
 
 export default function EventSection({ events }) {
 
@@ -28,9 +29,9 @@ let ev = events =>
         <img src={event.image} alt={`Event ${index + 1}`} />
         <h2>{event.title}</h2>
         <p>{event.description}</p>
-        <a className="button" href={event.learnMoreLink}>
+        <Link className="button" to={event.learnMoreLink}>
           Learn More
-        </a>
+        </Link>
       </div>
     ))
   }

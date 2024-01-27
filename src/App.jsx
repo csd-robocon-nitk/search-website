@@ -13,8 +13,12 @@ import About from "./components/pages/about";
 import Vision from "./components/pages/vision";
 import GetInvolved from "./components/pages/getinvolved";
 import Testimonial from "./components/pages/testimonials";
-// import EventSection from "./components/index/events/events"; // Import the EventSection component
 import { useLocation } from 'react-router-dom';
+
+
+import DedicationEvent from "./components/pages/events/dedication";
+import CoastalPoliceEvent from "./components/pages/events/coastalpolice";
+import Dirts2023Event from "./components/pages/events/dirts2023";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -46,7 +50,6 @@ function App() {
             <Navbar toggle={toggle} scrollToTarget={scrollToTarget}/>
             <Routes>
                 <Route path="/" element={<Home targetDivRef={targetDivRef} />} />
-                {/* <Route path="/events" element={<EventSection />} /> */}
                 <Route  path="/gallery" element={<Gallery />} />
                 <Route  path="/team" element={<Team />} />
                 <Route  path="/Aim" element={<Aim />} />
@@ -55,6 +58,10 @@ function App() {
                 <Route  path="/about" element={<About />} />
                 <Route  path="/vision" element={<Vision />} />
                 <Route  path="/testimonials" element={<Testimonial />} />
+
+                <Route path="/events/dedication" element={<DedicationEvent />} />
+                <Route path="/events/coastalpolice" element={<CoastalPoliceEvent />} />
+                <Route path="/events/dirts2023" element={<Dirts2023Event />} />
             </Routes>
             <Footer />
         </Router>
