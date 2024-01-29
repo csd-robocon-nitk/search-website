@@ -26,7 +26,7 @@ const eventsData = [
     {
       title: "Coastal Police 2023",
       description: "A Hands-on Session",
-      learnMoreLink: "https://search.nitk.ac.in",
+      learnMoreLink: "/events/coastalpolice",
       image: image3, 
     },
   ];
