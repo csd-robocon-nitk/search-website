@@ -10,7 +10,6 @@ import Aim from './components/pages/Aim';
 import Alumni from "./components/pages/alumni"
 import Footer from "./components/Footer";
 import About from "./components/pages/about";
-import Vision from "./components/pages/vision";
 import GetInvolved from "./components/pages/getinvolved";
 import Testimonial from "./components/pages/testimonials";
 import { useLocation } from 'react-router-dom';
@@ -56,7 +55,6 @@ function App() {
                 <Route  path="/supporters" element={<Alumni />} />
                 <Route  path="/getinvolved" element={<GetInvolved />} />
                 <Route  path="/about" element={<About />} />
-                <Route  path="/vision" element={<Vision />} />
                 <Route  path="/testimonials" element={<Testimonial />} />
 
                 <Route path="/events/dedication" element={<DedicationEvent />} />
