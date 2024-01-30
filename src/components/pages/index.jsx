@@ -4,7 +4,6 @@ import GallerySection from '../index/gallery/gallery'
 import EventSection from "../index/events/events";
 import ContactSection from "../index/contact/contact";
 import ParallaxSection from '../index/parallax/parallax'
-import SocialSection from '../index/social/social'
 // //import TimelineSection from '../index/timeline/timeline'
 import image2 from '../../images/event.JPG'
 import image1 from '../../images/event2.jpg'
@@ -38,7 +37,6 @@ const Home = () => {
             <HeroSection />
             {/* <TimelineSection /> */}
             <ParallaxSection />
-            <SocialSection />
             <EventSection events={eventsData} />
             <GallerySection />
             <ContactSection />
