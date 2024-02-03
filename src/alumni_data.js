@@ -119,6 +119,18 @@ export default [
         "department": "",
         "photo": "empty photo.jpg",
     },
+    {
+        "name": "Yajnanarayana Kammaje, Founder Sona Group of Industries",
+        "batch": "1971",
+        "department": "Electrical Engineering",
+        "photo": "empty photo.jpg",
+    },
+    {
+        "name": "Mr. Rajashekhar",
+        "batch": "",
+        "department": "",
+        "photo": "empty photo.jpg",
+    },
     // {
     //     "name": "Dilip Kumar",
     //     "batch": "1993",

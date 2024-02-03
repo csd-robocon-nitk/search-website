@@ -63,6 +63,11 @@ export default {
             "designation": "Field Assistant",
             "photo": "Niranjan.png"
         },
+        {
+            "name": "Prajna K",
+            "designation": "JRF",
+            "photo": "prajna.jpg"
+        },
     ],
 
     "Additional Members": [
