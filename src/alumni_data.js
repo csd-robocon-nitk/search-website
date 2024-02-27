@@ -81,7 +81,7 @@ export default [
         "name": "NITKSAA Bengaluru Chapter",
         "batch": "",
         "department": "",
-        "photo": "empty photo.jpg",
+        "photo": "NITK Alumni Association.png",
     },
     {
         "name": "M/s Ghatge Patil Industries limted",
