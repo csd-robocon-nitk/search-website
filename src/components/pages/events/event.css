@@ -10,6 +10,7 @@
 
 .eventpage h1 {
     color: var(--accent-dark);
+    margin-bottom: 10px;
 }
 
 .eventpage h2 {
@@ -31,6 +32,12 @@
 
 .eventpage .details h3.underline {
     text-decoration: underline;
+}
+
+
+.eventpage h4 {
+    font-weight: 600;
+    text-align: center;
 }
 
 .eventpage .images {

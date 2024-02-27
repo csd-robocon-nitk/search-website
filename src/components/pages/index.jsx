@@ -19,7 +19,7 @@ const eventsData = [
     {
       title: "DiRTS 2023",
       description: "A 3-Day Disaster Resilience Workshop",
-      learnMoreLink: "https://search.nitk.ac.in",
+      learnMoreLink: "/events/dirts2023",
       image: image2, 
     },
     {
@@ -27,6 +27,12 @@ const eventsData = [
       description: "A Hands-on Session",
       learnMoreLink: "/events/coastalpolice",
       image: image3, 
+    },
+    {
+      title: "IInvenTiv 2024",
+      description: "SEARCH's Trailblazing Impact",
+      learnMoreLink: "/events/iinventiv",
+      image: "/images/events/iinventiv/001.jpeg", 
     },
   ];
 

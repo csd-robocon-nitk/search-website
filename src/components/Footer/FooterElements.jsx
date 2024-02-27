@@ -156,10 +156,20 @@ color: #fff;
 margin-bottom: 20px;
 font-size: 18px;
 text-decoration: none;
+display: flex;
+align-items: middle;
+gap: 5px;
+
+cursor: pointer;
 
 &:hover {
 	color: green;
 	transition: 200ms ease-in;
+}
+
+svg {
+    flex-shrink: 0;
+    height: 100%;
 }
 `;
 

@@ -18,6 +18,7 @@ import { useLocation } from 'react-router-dom';
 import DedicationEvent from "./components/pages/events/dedication";
 import CoastalPoliceEvent from "./components/pages/events/coastalpolice";
 import Dirts2023Event from "./components/pages/events/dirts2023";
+import IinventivEvent from "./components/pages/events/iinventiv";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -60,6 +61,7 @@ function App() {
                 <Route path="/events/dedication" element={<DedicationEvent />} />
                 <Route path="/events/coastalpolice" element={<CoastalPoliceEvent />} />
                 <Route path="/events/dirts2023" element={<Dirts2023Event />} />
+                <Route path="/events/iinventiv" element={<IinventivEvent />} />
             </Routes>
             <Footer />
         </Router>

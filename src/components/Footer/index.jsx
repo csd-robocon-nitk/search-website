@@ -89,7 +89,8 @@ const Footer = () => {
 
 export default Footer;*/
 import React from "react";
-import {FaInstagram,FaYoutube, FaLinkedin, } from "react-icons/fa";
+import {FaInstagram,FaYoutube, FaLinkedin, FaPhone, FaPhoneAlt } from "react-icons/fa";
+import { MdMail } from "react-icons/md"
 import logo from "../../images/logo.png";
 import {
 Box,
@@ -146,8 +147,8 @@ return (
 			<Heading>Contact Us</Heading>
 			<FooterLink href="https://www.nitk.ac.in/">NITK</FooterLink>
 			<FooterLink href="https://csd.nitk.ac.in/">CSD</FooterLink>
-			<FooterLink >Email-: search@nitk.edu.in</FooterLink>
-			<FooterLink >Phone No -: 9972797225 </FooterLink>
+			<FooterLink><MdMail />search@nitk.edu.in</FooterLink>
+			<FooterLink><FaPhoneAlt />9972797225 </FooterLink>
 		</Column>
 		<Column>
 			<Heading>Social Media</Heading>
