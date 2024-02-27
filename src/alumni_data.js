@@ -1,81 +1,81 @@
 export default [
     {
-        "name": "M/s ACE manufacturing Systems Limited -Ramdas P",
+        "name": "M/s ACE manufacturing Systems Limited - Ramdas P",
         "batch": "1968",
         "department": "Mechanical Engineering",
-        "photo": "empty photo.jpg"
+        "photo": "ACE Manufacturing Logo.png"
     },
     {
-        "name": "RAM BHANDARE_AKP Foundries Pvt Ltd",
+        "name": "Ram Bhandare - AKP Foundries Pvt Ltd",
         "batch": "1970",
         "department": "Metallurgical and Materials Engineering",
-        "photo": "empty photo.jpg"
+        "photo": "Ram Bhandare.png"
     },
     {
         "name": "A S Karanth",
         "batch": "1970",
         "department": "Electrical Engineering",
-        "photo": "empty photo.jpg"
+        "photo": "A S Karanth.png"
     },
     {
         "name": "Anil Kakode",
         "batch": "1970",
         "department": "Chemical Engineering",
-        "photo": "empty photo.jpg"
+        "photo": "Anil Kakode.png"
     },
     {
         "name": "Benedict Machado",
         "batch": "1970",
         "department": "Mechanical Association",
-        "photo": "empty photo.jpg"
+        "photo": "Benedict Machado.png"
     },
     {
         "name": "Govindaraya Pai",
         "batch": "1970",
         "department": "Electrical Engineering",
-        "photo": "empty photo.jpg"
+        "photo": "Govindaraya Pai.png"
     },
     {
-        "name": "M/s Cotmac Electronics Pvt Ltd - SHYAM SIRUR",
+        "name": "M/s Cotmac Electronics Pvt Ltd - Shyam Sirur",
         "batch": "1970",
         "department": "Electrical Engineering",
-        "photo": "empty photo.jpg",
+        "photo": "Shyam Sirur.png",
     },
     {
         "name": "Krishnamurthy R",
         "batch": "1981",
         "department": "Electrical Engineering",
-        "photo": "empty photo.jpg"
+        "photo": "Krishnamurthy R.png"
     },
     {
         "name": "Vasantha Raja Sural",
         "batch": "1970",
         "department": "Mechanical Engineering",
-        "photo": "empty photo.jpg",
+        "photo": "Vasantha Raja Sural.png",
     },
     {
         "name": "Rangan Ramasamy",
         "batch": "1983",
         "department": "Electrical Engineering",
-        "photo": "empty photo.jpg",
+        "photo": "Rangan Ramasamy.png",
     },
     {
         "name": "Kiran Padiyar",
         "batch": "1995",
         "department": "ELectronics & Communication Engineering",
-        "photo": "empty photo.jpg",
+        "photo": "Kiran Padiyar.png",
     },
     {
         "name": "Raghuraj Rao",
         "batch": "1996",
         "department": "",
-        "photo": "empty photo.jpg"
+        "photo": "Raghuraj Rao.png"
     },
     {
-        "name": "SrikanthBhat",
+        "name": "Srikanth Bhat",
         "batch": "1998",
         "department": "",
-        "photo": "empty photo.jpg",
+        "photo": "Srikanth Bhat.png",
     },
     {
         "name": "NITKSAA Bengaluru Chapter",
@@ -87,31 +87,31 @@ export default [
         "name": "M/s Ghatge Patil Industries limted",
         "batch": "",
         "department": "",
-        "photo": "empty photo.jpg",
+        "photo": "ghatge patil industries.jpeg",
     },
     {
         "name": "NITK Surathkal Alumni Association",
         "batch": "",
         "department": "",
-        "photo": "empty photo.jpg",
+        "photo": "NITK Alumni Association.png",
     },
     {
         "name": "Raja Bhat & Kumuda Foundations",
         "batch": "",
         "department": "",
-        "photo": "empty photo.jpg",
+        "photo": "Raja Bhat &  Kumuda Foundations.png",
     },
     {
         "name": "Sathish Shenoy",
         "batch": "",
         "department": "",
-        "photo": "empty photo.jpg",
+        "photo": "Sathish Shenoy.png",
     },
     {
         "name": "Suresh Joshi",
         "batch": "",
         "department": "",
-        "photo": "empty photo.jpg",
+        "photo": "Suresh Joshi.png",
     },
     {
         "name": "Shreyas Shetty",
@@ -120,7 +120,7 @@ export default [
         "photo": "empty photo.jpg",
     },
     {
-        "name": "Yajnanarayana Kammaje, Founder Sona Group of Industries",
+        "name": "Yajnanarayana Kammaje, Founder, Sona Group of Industries",
         "batch": "1971",
         "department": "Electrical Engineering",
         "photo": "empty photo.jpg",
