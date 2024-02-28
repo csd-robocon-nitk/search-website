@@ -13,7 +13,6 @@ export default function EventSection({ events }) {
       >
         {ev(events)}
         {ev(events)}
-        {ev(events)}
       </div>
     </div>
   );

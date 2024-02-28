@@ -34,6 +34,12 @@ const eventsData = [
       learnMoreLink: "/events/iinventiv",
       image: "/images/events/iinventiv/001.jpeg", 
     },
+    {
+      title: "Enhancing Coastal Security",
+      description: "SDI-CSTI's Second Training Visit to NITK's SEARCH Hub",
+      learnMoreLink: "/events/enhancingcoastalsecurity",
+      image: "/images/events/enhancingcoastalsecurity/001.jpg", 
+    },
   ];
 
 

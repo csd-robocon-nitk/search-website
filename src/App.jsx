@@ -19,6 +19,7 @@ import DedicationEvent from "./components/pages/events/dedication";
 import CoastalPoliceEvent from "./components/pages/events/coastalpolice";
 import Dirts2023Event from "./components/pages/events/dirts2023";
 import IinventivEvent from "./components/pages/events/iinventiv";
+import EnhancingCoastalSecurityEvent from "./components/pages/events/enhancingcostalsecurity"
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -62,6 +63,7 @@ function App() {
                 <Route path="/events/coastalpolice" element={<CoastalPoliceEvent />} />
                 <Route path="/events/dirts2023" element={<Dirts2023Event />} />
                 <Route path="/events/iinventiv" element={<IinventivEvent />} />
+                <Route path="/events/enhancingcoastalsecurity" element={<EnhancingCoastalSecurityEvent />} />
             </Routes>
             <Footer />
         </Router>
