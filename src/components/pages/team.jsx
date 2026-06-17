@@ -18,27 +18,27 @@ export default function Team () {
                         <TeamCard
                             {...team_data['Core Team'][0]}
                         />
-                        <TeamCard
+                        {/* <TeamCard
                             {...team_data['Core Team'][1]}
-                        />
+                        /> */}
                     </div>
                 </div>
 
-                <div className="section">
+                {/* <div className="section">
                     <h3>SEARCH Team</h3>
                     <TeamContent
                         team={team_data['SEARCH Team']}
                     />
-                </div>
+                </div> */}
 
                 <div className="section">
-                    <h3>Additional Members</h3>
+                    <h3>Past Contributors</h3>
                     <TeamContent
                         team={team_data['Additional Members']}
                     />
                 </div>
 
-                <div className="section">
+                {/* <div className="section">
                     <h3>Project Managers</h3>
                     <TeamContent
                         team={team_data['Project Managers']}
@@ -55,7 +55,7 @@ export default function Team () {
                             )    
                         }
                     </div>
-                </div>
+                </div> */}
                 <div className="section">
                     <h3>Web Design Team</h3>
                     <div className="flex">
@@ -68,7 +68,7 @@ export default function Team () {
                         }
                     </div>
                 </div>
-                <div className="section">
+                {/* <div className="section">
                     <h3>Media Team</h3>
                     <div className="flex">
                         {
@@ -79,7 +79,7 @@ export default function Team () {
                             )    
                         }
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
